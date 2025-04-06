@@ -94,3 +94,44 @@ var order=5
 var storeName="'xyz clothing store'"
 document.write(`${name} ordered ${order} T-shirts from ${storeName}`) 
 
+//Assignment 2
+
+//chapter 1
+alert("Tanzeel")
+alert("Qamar")
+alert("abc@gmail.com")
+alert(+92122334455)
+alert("abc123")
+alert("You're learning Javascript!")
+alert("This is my assignment")
+
+//chapter 2
+var myName = "Tanzeel Qamar"
+var myEducation 
+myEducation = "Msc Chemistry"
+console.log(myEducation);
+var teamName = "Tanzeel, Fareeba"
+alert(teamName)
+var bestMan = "Charlie"
+bestMan="John"
+console.log(bestMan)
+
+//chapter 3
+var caseQty 
+caseQty = 144
+var num = "9"
+var num1 = 6
+var num2 = 10
+var sum
+sum = num1 + num2 
+console.log(sum);
+var merchTotal = 100
+var shippingCharge = 10
+var orderTotal = merchTotal + shippingCharge
+console.log(orderTotal);
+var number = 10
+var number1 = number + 7
+console.log(number1);
+
+
+
