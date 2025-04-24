@@ -657,3 +657,468 @@ var askName = prompt("Enter your name")
 if(askName!==my_name){
     alert("No Match!")
 }
+
+
+//assignment 21
+
+//chapter 12-13
+
+var input =prompt("Enter a character. it can be a string or a number")
+if(input >=65 && input <=90){
+    alert("It is an uppercase letter")
+}
+else if(input>=97 && input <=122){
+    alert("It is a lowercase letter")
+}else if(input==="A"){
+   alert("The number is 65")
+}
+else if(input==="Z"){
+   alert("The number is 90")
+}else if(input==="a"){
+   alert("The number is 97")
+}else if(input==="z"){
+   alert("The number is 122")
+}
+else{
+   alert("please enter number between 65-122 or (A, a, Z or z")
+}
+
+var ask_1 = parseInt(prompt("Enter the character"))
+var ask_2 = parseInt(prompt("Enter another character"))
+if(ask_1 === ask_2){
+    alert("The numbers are equal")
+}else if(ask_1 > ask_2){
+    alert(`${ask_1}`)
+}
+else if (ask_2 > ask_1){
+    alert(`${ask_2}`)
+}
+
+var checkNumbers = parseInt(prompt("Enter any number"))
+if(checkNumbers > 0){
+    alert("The number is positive")
+}else if (checkNumbers < 0){
+    alert("The number is negative")
+}else if (checkNumbers === 0){
+    alert ("The number is zero")
+}
+
+var letter = prompt("Enter a letter")
+if(letter && letter.length === 1 && letter==="a" || letter ==="e" || letter ==="i" || letter ==="o" || letter ==="u"){
+    alert("True")
+} else{
+    alert("false")
+}
+
+var correctPassword = "abcd123"
+var question = prompt("Enter your password")
+if(question===correctPassword){
+    alert("Correct!")
+}else if(question!==correctPassword){
+    alert("Incorrect password!")
+}
+else{
+    alert("Enter your password!")
+}
+
+var greeting;
+var hour = 13;
+if(hour<18){
+    greeting = "Good Day"
+}else{
+    greeting = "Good Evening"
+}
+
+var time = parseInt(prompt("What time is it?"))
+if(time >= 0o0 && time <=1200){
+    alert("Good Morning")
+}else if (time>=1200 && time <=1700){
+    alert("Good Afternoon")
+}else if (time>=1700 && time <=2100){
+    alert("Good Evening")
+}else if (time>=2100 && time <=2359){
+    alert("Good Night")
+}else{
+    alert("Please enter correct time")
+}
+
+var student_name = [""]
+var student1 = new Array("")
+var subjects = ["english", "urdu", "maths","islamiat", "computer", "science"]
+var counting = [1, 2, 3, 4, 5, 6, 7]
+var trfl = [true,false]
+var mixed = ["name", 50, true]
+
+var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "Mphil", "Phd"]
+for(var i=0; i<qualifications.length; i++){
+console.log(education[i]);}
+
+
+
+var studentName = ["Michael", "John", "Tony"]
+var studentScore = [320, 230, 480]
+var totalMarks = 500
+var percentage;
+studentName.splice(1,1,)
+studentName.splice(1,1,)
+studentScore.splice(1,1,)
+studentScore.splice(1,1,)
+var result = `score of ${studentName} is ${studentScore} with ${percentage=(studentScore*100)/totalMarks}%`
+console.log(result);
+studentName.splice(0,1,"John")
+studentScore.splice(0,1,230)
+var result = `score of ${studentName} is ${studentScore} with ${percentage=(studentScore*100)/totalMarks}%`
+console.log(result);
+studentName.splice(0,1,"Tony")
+studentScore.splice(0,1,480)
+var result = `score of ${studentName} is ${studentScore} with ${percentage=(studentScore*100)/totalMarks}%`
+console.log(result);
+
+
+var colorNames = ["black", "red", "purple", "pink", "brown", "blue", "white"]
+var q = prompt("What color do you want to aadd in the begining?")
+if(q===colorNames[0]){
+    colorNames.splice(0,0,"black")
+   //  console.log(colorNames);
+    colorNames.splice(0,1)
+    console.log(colorNames);
+}else if(q===colorNames[1]){
+   colorNames.splice(0,1,"red")
+   // console.log(colorNames);
+   colorNames.splice(1,0,"black")
+   // console.log(colorNames);
+   colorNames.splice(1,1)
+   // console.log(colorNames);
+}
+else if(q===colorNames[2]){
+   colorNames.splice(0,1,"purple")
+   // console.log(colorNames);
+   colorNames.splice(2,0,"red")
+   // console.log(colorNames);
+   colorNames.splice(1,0,"black")
+   // console.log(colorNames);
+   colorNames.splice(3,2)
+   console.log(colorNames);
+}
+else if(q===colorNames[3]){
+   colorNames.splice(0,1,"pink")
+   // console.log(colorNames);
+   // colorNames.splice(2,0,"red")
+   // console.log(colorNames);
+   colorNames.splice(1,0,"black")
+   // console.log(colorNames);
+   colorNames.splice(4,1)
+   // console.log(colorNames);
+   colorNames.splice(3,0)
+   console.log(colorNames);
+}
+else if(q===colorNames[4]){
+   colorNames.splice(0,1,"brown")
+   // console.log(colorNames);
+   colorNames.splice(1,0,"black")
+   // console.log(colorNames);
+   colorNames.splice(5,1)
+   // console.log(colorNames);
+   colorNames.splice(3,0)
+   console.log(colorNames);
+}
+else if(q===colorNames[5]){
+   colorNames.splice(0,1,"blue")
+   // console.log(colorNames);
+   colorNames.splice(1,0,"black")
+   // console.log(colorNames);
+   colorNames.splice(6,1)
+   // console.log(colorNames);
+   colorNames.splice(3,0)
+   console.log(colorNames);
+}
+else if(q===colorNames[6]){
+   colorNames.splice(0,1,"white")
+   // console.log(colorNames);
+   colorNames.splice(1,0,"black")
+   // console.log(colorNames);
+   colorNames.splice(7,1)
+   // console.log(colorNames);
+   colorNames.splice(3,0)
+   console.log(colorNames);
+}
+colorNames.unshift("yellow", "green")
+console.log(colorNames);
+
+colorNames.shift()
+console.log(colorNames);
+
+colorNames.push()
+console.log(colorNames);
+
+
+var colorNames = ["black", "red", "purple", "pink", "brown"]
+var q = +prompt("At which index do you want to add the color?")
+var q2 = prompt("enter color name")
+if((q==0)||(q2 == "red")){ 
+   colorNames.splice(0,0,"red")
+   colorNames.splice(2,1)
+   console.log(colorNames);
+}else if ((q==1)||(q2 == "pink")){ 
+   colorNames.splice(1,0,"pink")
+   console.log(colorNames);
+   colorNames.splice(4,1)
+   console.log(colorNames);
+}
+else if ((q==4)||(q2 == "black")){ 
+   colorNames.splice(4,0,"black")
+   console.log(colorNames);
+   colorNames.splice(0,1)
+   console.log(colorNames);
+}else if ((q==5)||(q2 == "purple")){ 
+   colorNames.splice(5,0,"purple")
+   console.log(colorNames);
+   colorNames.splice(2,1)
+   console.log(colorNames);
+}else if ((q==2)||(q2 == "brown")){ 
+   colorNames.splice(2,0,"brown")
+   console.log(colorNames);
+   colorNames.splice(5,1)
+   console.log(colorNames);
+}else if((q==4)||(q2=="black")){
+   colorNames.splice(4,0,"black")
+   console.log(colorNames);
+   colorNames.shift()
+   console.log(colorNames);
+}
+
+q3 = prompt("Which color do you want to delete?enter index")
+q4 = prompt("how many color do you want to delete?")
+if((q3==2) && (q4==2)){
+   colorNames.splice(1,2)
+   console.log(colorNames)
+}else if((q3==1)&&(q4==2)){
+   colorNames.splice(0,2)
+   console.log(colorNames);
+}
+else if((q3==4)&&(q4==0)){
+   colorNames.splice(3,0)
+   console.log(colorNames);
+}else if((q3==3)&&(q4==1)){
+   colorNames.splice(2,1)
+   console.log(colorNames);
+}
+
+var scores = [320, 230, 480, 120]
+scores.sort((a,b)=>a-b)
+console.log(scores);
+
+var citiesList = ["Karachi", "Lahore", "Islamabad", "Multan", "Quetta"]
+citiesList.splice(0,3)
+console.log(citiesList);
+
+var arr = ["This", "is", "my", "cat"]
+var str = arr.join(" ")
+console.log(str);
+
+var devices =["keyboard", "mouse", "printer", "monitor"]
+var first = devices.shift()
+console.log(first);
+var last = devices.pop()
+console.log(last);
+
+var mobile = ["Apple", "samsung", "nokia", "Motorola", "sony", "haier"]
+document.write("<select>")
+for (var i=0; i < mobile.length; i++)
+   document.write(`<option> ${mobile[i]}</option>`)
+document.write("</select>")
+
+
+//assignment 21(ii)
+
+var a = 23
+var b = 67
+if(a===b){
+    alert("Both values are equal")
+}else if(a!==b){
+    alert("both values are not equal")
+}
+
+
+
+var userName = prompt("enter user name")
+var userclass = +prompt("enter user class")
+var mathMarks = +prompt("enter your math marks")
+var englishMarks = +prompt("enter your english marks")
+var computerMarks = +prompt("enter your computer marks")
+var urduMarks = +prompt("enter your urdu marks")
+var totalMarks=400
+var percentage;
+var grade;
+var obtainedMarks;
+if(mathMarks<=50 || englishMarks<=50 || computerMarks<=50 || urduMarks<=50){
+   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
+   percentage=(obtainedMarks*100)/totalMarks
+   grade="F"
+}else if((mathMarks>=51 || englishMarks>=51 || computerMarks>=51 || urduMarks>=51)||(mathMarks<=60 || englishMarks<=60 || computerMarks<=60 || urduMarks<=60)){
+   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
+   percentage=(obtainedMarks*100)/totalMarks
+   grade="D"
+}
+else if((mathMarks>=61 || englishMarks>=61 || computerMarks>=61 || urduMarks>=61)||(mathMarks<=70 || englishMarks<=70 || computerMarks<=70 || urduMarks<=70)){
+   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
+   percentage=(obtainedMarks*100)/totalMarks
+   grade="C"
+}
+else if((mathMarks>=71 || englishMarks>=71 || computerMarks>=71 || urduMarks>=71)||(mathMarks<=80 || englishMarks<=80 || computerMarks<=80 || urduMarks<=80)){
+   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
+   percentage=(obtainedMarks*100)/totalMarks
+   grade="B"
+}
+else if((mathMarks>=81 || englishMarks>=81 || computerMarks>=81 || urduMarks>=81)||(mathMarks<=90 || englishMarks<=90 || computerMarks<=90 || urduMarks<=90)){
+   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
+   percentage=(obtainedMarks*100)/totalMarks
+   grade="A"
+}
+else if((mathMarks>=91 || englishMarks>=91 || computerMarks>=91 || urduMarks>=91)||(mathMarks<=100 || englishMarks<=100 || computerMarks<=100 || urduMarks<=100)){
+   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
+   percentage=(obtainedMarks*100)/totalMarks
+   grade="A+"
+}
+var marksheet= `
+----------------------------
+Name:${userName}
+Class: ${userclass}
+----------------------------
+Subject | Marks
+Math | ${mathMarks}
+English | ${englishMarks}
+Computer | ${computerMarks}
+Urdu | ${urduMarks}
+----------------------------
+total Marks: ${totalMarks}
+obtained: ${obtainedMarks}
+Percentage:${percentage}
+Grade: ${grade}
+`
+console.log(marksheet)
+
+if(a===10){
+    alert("a is equal to 10")
+}else{
+    alert(`The correct value of a is${a}`)
+}
+
+var q1 = prompt("Enter city")
+if(q1 === "Karachi"){
+    alert("Acknowledging it's karachi")
+}else if(q1==="lahore"){
+    alert("Acknowledging it's lahore")
+}else{
+    alert("Acknowledging it is your city")
+}
+
+if(a===b && c===d){
+    alert("true")
+}
+
+if(a===b || c!==d){
+    alert("true")
+}
+
+if(name==="hamza" || name==="arsalan" && age<70){
+alert("true")
+}
+
+var g = 34
+var z = 12
+if(g>z || g<z){
+    alert("g is greater than z")
+}
+
+var $firstName = "tanzeel"
+var $lastName  = "qamar"
+var q5 = prompt("Enter your first name")
+var q6 = prompt("Enter your last name")
+if(q5===$firstName && q6===$lastName){
+    alert(`your full name is ${$firstName} ${$lastName}`)
+}
+
+
+if(password!==5){
+    alert("password must be greater than 5")
+    if(password===5){
+        alert("ok")
+    }
+}
+
+if(a===1){
+    if (c==="Max"){
+        alert("ok")
+    }
+}
+
+if (a===1){
+    alert("ok")
+}else if(c==="Max"){
+    alert("ok")
+}
+
+var num1 = 45
+var num2 = 45
+if(num1===num2){
+    alert("ok")
+    if(num1<=num2){
+        alert("incorrect")
+    }
+}
+
+var arr = []
+var arr1 = ["city"]
+
+var letters = ["h", "i", "j", "k", "l", "m", "n", "o"]
+console.log(letters[2]);
+console.log(letters.length);
+
+var list = ["karachi"]
+list.splice(1,0, "lahore")
+console.log(list);
+alert(list[1])
+
+var score = [79]
+score.push(65)
+console.log(score);
+alert(score[1])
+
+var alphabet=["h","i","j","k"]
+alphabet.pop()
+console.log(alphabet);
+alphabet.push(54)
+console.log(alphabet);
+
+var sizes = ["S", "M", "XL", "XXL", "XXXL"]
+sizes.shift()
+console.log(sizes);
+sizes.unshift(23,56,34)
+console.log(sizes);
+
+var classes = ["II"]
+classes.unshift("I")
+alert(classes[0])
+
+var sizes = ["S", "M", "XL", "XXL", "XXXL"]
+sizes.splice(2,0,"L")
+console.log(sizes);
+
+var sizes = ["S", "M", "XL", "XXL", "XXXL"]
+sizes.splice(0,3)
+console.log(sizes);
+var regSizes = ["S", "M", "XL"]
+console.log(regSizes);
+
+var pets = ["dog", "cat", "ox", "duck", "frog"]
+pets.splice(1,3,"cow", "sheep")
+console.log(pets);
+
+var pets = ["dog", "cat", "ox", "duck", "frog", "flea"]
+pets.slice(0, 3)
+console.log(pets);
+pets.slice(2,0)
+console.log(pets);
+
+
