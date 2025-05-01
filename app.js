@@ -1122,3 +1122,158 @@ pets.slice(2,0)
 console.log(pets);
 
 
+//assignment 22
+
+var arr = [[]]
+
+var arr1 = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+for(var i=0; i<arr1.length; i++){
+    for(var i=0; i<arr1[i].length; i++){
+        console.log(arr1[i][j]);
+    }
+}
+
+for(var i=1; i <=10; i++){
+    console.log(i);    
+}
+
+
+var num = prompt("enter a number")
+   for(var i=1; i<=10; i++){
+      console.log(num +"x"+ i + "=" + num*i);
+   }
+
+
+   var fruits = ["apple", "mango", "banana", "orange", "melon"]
+   console.log(fruits);
+   console.log(`element at index ${fruits.indexOf("apple")} is apple`);
+   console.log(`element at index ${fruits.indexOf("mango")} is mango`);
+   console.log(`element at index ${fruits.indexOf("banana")} is banana`);
+   console.log(`element at index ${fruits.indexOf("orange")} is orange`);
+   console.log(`element at index ${fruits.indexOf("melon")} is melon`);
+
+document.write("<h1>Counting</h1>")
+for(var i=1; i<=15; i++){
+    console.log(i);
+    document.write(`${[i]},`)
+}
+
+document.write("<h1>ReverseCounting</h1>")
+for(var i=15; i>=1; i--){
+    console.log(i);
+    document.write(`${[i]},`)
+}
+
+document.write("<h1>Even Numbers:</h1>")
+for(var i=0; i<=20; i+=2){
+    console.log(i);
+    document.write(`${[i]},`)
+}
+
+document.write("<h1>Odd Numbers:</h1>")
+for(var i=1; i<=20; i+=2){
+    console.log(i);
+    document.write(`${[i]},`)
+}
+
+document.write("<h1>Series:</h1>")
+for(var i=2; i<=20; i+=2){
+    console.log(i);
+    document.write(`${[i]}k,`)
+}
+
+var q9 = prompt("What do you want to order?")
+var lst = ["cake", "apple pie", "cookie", "chips", "patties"]
+for(var i=0; i<lst.length; i++){
+   if(q9===lst[i]){
+      alert("available at index"+i)
+   }else if(q9!==lst[i]){
+      alert("sorry not available")
+   }
+}
+
+var num =[24, 53, 78, 91, 12]
+var max = Math.max(...num)
+console.log(`the largest number is ${max}`);
+
+var min = Math.min(...num)
+console.log(`The smallest number is ${min}`);
+
+for(var i=5; i<=100; i+=5)
+    console.log(i);
+
+//assignment 22(ii)
+
+for(var i=1; i<=10; i++)
+    console.log(i);
+
+for (var i=1; i<=12; i++)
+    console.log(i);
+
+
+for (var i=0; i<=4; i++)
+    console.log(i);
+    
+for(var j=1; j<101; j++)
+    console.log(j);
+
+for(var i=3; i>0; i--)
+    console.log(i);
+
+var number = [1,2,3,4,5,6]
+
+var flag = true;
+
+var pets = ["cat", "dog", "cow", "sheep", "camel"]
+for(var i=1; i<pets.length; i++)
+   console.log(pets[i]);
+console.log(pets.length);
+
+for(var i=1; i<=10; i++){
+    console.log(i);
+ if(i===1){
+    alert(`counter is ${i}`)
+ }}
+
+ var names=["tanzeel", "fareeba", "dua", "malika"]
+var firstName =prompt("Enter your name")
+var found;
+for(var i=0; i<names.length; i++){
+ if(firstName===names[i]){
+   var found =true
+   break
+ }
+}
+if(found){
+   alert("Enter")
+}else{
+   alert("enter correct name")
+}
+
+var list=["pencil", "scale", "sharpner", "eraser"]
+var userInput = prompt("Enter Stationary")
+var matchFound;
+for (var i=0; i<list.length; i++){
+   if (userInput===list[i]){
+      alert("Match Found")
+      matchFound=true;
+      break;
+   }
+}
+if(matchFound){
+   alert("Match FOund")
+}
+else{
+   alert("Not Found")
+}
+
+var firstArr =["a", "b", "c", "d", "e", "f"]
+var secondArr = [1,2,3,4,5,6]
+var combine =[]
+for(var i=0; i<firstArr.length; i++){
+   for(var j=0; j<secondArr.length; j++){
+ combine.push(firstArr[i]+secondArr[j])
+   
+   }
+}
+console.log(combine);
