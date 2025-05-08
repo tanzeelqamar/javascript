@@ -1277,3 +1277,351 @@ for(var i=0; i<firstArr.length; i++){
    }
 }
 console.log(combine);
+
+
+
+//assignment 23
+
+var qn = prompt("Enter your first name")
+var qn2 = prompt("Enter your last name")
+alert (`Hello! ${qn} ${qn2}`)
+
+var ask = prompt("Enter your favourite mobile phone model")
+document.write(`Your favourite Mobile phone model is ${ask} Length of string: ${ask.length}`)
+
+var letter = 'Pakistani'
+var n = letter.indexOf("n")
+var chr = letter.charAt(3)
+console.log(`String: ${letter}`);
+console.log(`Index of 'n' is:${n}`);
+console.log(`Character at 3rd index is: ${chr}`);
+
+
+var str = "Hello World"
+var length = str.lastIndexOf("l")
+console.log(`String: ${str}`);
+console.log(`Last index of 'l' is: ${length}`);
+
+var city = "Hyderabad"
+console.log(city);
+var rpl = city.replace("Hyder", "Islam")
+console.log(rpl);
+
+var message = "Ali and Sami are best friends, they play football and cricket"
+console.log(message);
+var rpl2 = message.replace(/and/g, "&")
+console.log(rpl2);
+
+
+var strng = "472"
+var num = parseFloat(strng)
+document.write(`Value: ${strng} Type: string\n Value: ${num} Type: Number`)
+
+var input = prompt("Enter your favourite DryFruit")
+var cse = input.toUpperCase()
+alert(cse);
+
+var input1 = prompt("Enter anything in lowercase")
+var cse = input1.charAt(0).toUpperCase()+input1.slice(1)
+alert(cse);
+
+var num = 35.36
+var str=num.toString().replace(".","")
+console.log(num);
+console.log(str);
+
+var q = prompt("Enter your name")
+var found= false
+for(var i=0; i<q.length; i++){
+var response = q.charCodeAt(i)
+if((response>=33 && response<=64)){
+   found= true
+   break;
+}
+}
+if(found){
+   alert("Enter valid name")
+}
+else{
+   alert("welcome")
+}
+
+
+
+var q9 = prompt("What do you want to order?")
+var lst = ["cake", "apple pie", "cookie", "chips", "patties"]
+var lst1 = q9.toLowerCase()
+var found = false
+for(var i=0; i<lst.length; i++){
+   if(lst1===lst[i]){
+    found = true
+    break;
+   }
+}
+   if(found) {
+      alert("available at index"+i)
+   }  
+   else{
+      alert("sorry not available")
+   }
+
+   var password = prompt("Enter Password")
+var num = password.charAt(0)
+var asc = num.charCodeAt(0)
+var found = false
+if(password.length= 6 || (asc>=48 && asc<=57)){
+   found= true
+}
+if(found){
+   alert("enter valid password")
+}
+else{
+   alert("welcome")
+}
+
+
+var university = "University of Karachi";
+var arr = university.split(" ")
+console.log(arr);
+document.write(arr)
+
+var input = prompt("enter country name")
+var last = input.charAt(input.length - 1)
+document.write(`User Input: ${input}`)
+document.write(`Last Character is: ${last}`)
+
+var str = "The quick brown fox jumps over the lazy dog"
+var word = "the"
+var count = str.toLowerCase().split(`${word.toLowerCase()}`).length-1
+console.log(`word count for ${word} is ${count}`);
+
+var num = prompt("Enter a decimal value")
+alert(`The value is ${num}\n Roundoff value is ${Math.round(num)}\n The floor value is ${Math.floor(num)}\n The ceil value is ${Math.ceil(num)}`)
+
+var neg = prompt("Enter a negative decimal value")
+if(neg<0){
+   alert(`The number is ${neg}\n The roundoff value is ${Math.round(neg)}\n The floor value is ${Math.floor(neg)}\n The ceil value is ${Math.ceil(neg)}`)
+}else{
+   alert("Please enter a negative value")
+}
+
+var num = prompt("Enter a negative or positive value")
+alert(`The absolute value of ${num} is ${Math.abs(num)}`)
+
+var random = Math.floor(Math.random()*6)+1
+alert(`The random dice value is ${random}`)
+
+var toss = Math.floor(Math.random() *2)+1
+console.log(toss);
+var ask = parseInt(prompt("For toss, type 2 for  Head or 1 for Tail"))
+if (ask === toss){
+   alert("Fired!")
+}else if(ask!== toss){
+   alert("You Won!")
+}
+
+var random = Math.floor(Math.random()*100)+1
+document.write(`The random between 1-100 is ${random}`)
+
+var askWeight = parseInt(prompt("Enter your weight in Kilograms"))
+var weight=askWeight.toFixed(1)
+document.write(`Your weight is ${weight} Kilograms`)
+
+var secret = Math.floor(Math.random()*10)+1
+var ask = parseFloat(prompt("Enter a number between 1-10"))
+if(ask === secret){
+   alert("Congratulations!!")
+}else if(ask!==secret){
+   alert("Try Again!")
+}
+
+//assignment 23(ii)
+
+var userInput= prompt("enter your name")
+var allLower = userInput.toLowerCase();
+
+var x = "Tanzeel"
+x = x.toLowerCase()
+
+var y = "qamar"
+y = y.toUpperCase()
+
+var name = "Tanzeel Qamar"
+var fullName = name.toLowerCase();
+
+var arr = ["buildings", "houses", "schools", "hospitals", "mosques"]
+var lowerArr = arr.toLowerCase()
+
+var str = "karachi"
+var upper = str.toUpperCase()
+alert(upper)
+
+var cityName = "kaRacHi";
+var capital = cityName.charAt(0).toUpperCase()+cityName.slice(1).toLowerCase()
+console.log(capital);
+
+
+var sameWords = "captain"
+var slce = sameWords.slice(1,3)
+console.log(slce);
+
+var a = "This is the City of Lights"
+var b = a.length
+console.log(b);
+
+var animal = "elephant"
+var seg = animal.slice(2,6)
+console.log(seg);
+
+var w = "an apple a day keeps the doctor away"
+var char = w.length
+console.log(char);
+var ind = w.indexOf("w")
+console.log(ind);
+ var second = w.slice(3,33)
+ console.log(second);
+ 
+ var text = "To be or not to be."; 
+var indx = text.indexOf("be");
+console.log(indx); //3
+
+var text = "To be or not to be."; 
+var indx = text.lastIndexOf("be");
+console.log(indx); //16
+
+var text = "go"
+var indx = text.lastIndexOf("g")
+console.log(indx);
+
+
+var str = "snacks"
+if (indexNum>=0 && indexNum<str.length){
+
+}
+
+var str = "abcde"
+var indx = str.charAt(2)
+console.log(indx);
+
+var t = "MyNameisTanzeel"
+var cha = t.charAt(10)
+console.log(cha);
+
+var str = "assignment"
+var len = str.length
+console.log(len); //20
+var x = str.charAt(9)
+console.log(x);
+
+
+var input = "please enter your response"
+var cha = input.charAt(5)
+console.log(cha);
+
+var str = "drink water"
+var cha = "n"
+if(cha===str.charAt(3)){
+
+}
+
+var y = "This is Question 15"
+for(var i=0; i<y.length; i++){
+   console.log(i);
+   
+}
+var arr = y.split("")
+console.log(arr);
+
+var reply = "no"
+console.log(reply);
+var revisedReply = reply.replace("no", "yes")
+console.log(revisedReply);
+
+var str = "1"
+console.log(str);
+var newStr = str.replace("1", "one")
+console.log(newStr);
+
+
+var y = x.replace(/a/g, "z");
+
+var num = 25.76
+var round = Math.round(num)
+console.log(round);
+
+var origNum = 45.578
+var roundNum = Math.ceil(origNum)
+console.log(roundNum);
+
+var origNum = 45.578
+var roundNum = Math.floor(origNum)
+console.log(roundNum);
+
+var num1 = 67.349
+var result = Math.round(num1)
+console.log(result);
+
+var num = 0.5
+var round = Math.floor(num)
+console.log(round);
+
+
+var a = Math.floor(Math.random()*50)+1
+console.log(a);
+
+var gen_num = Math.random()
+console.log(gen_num);
+
+var num = Math.random()*6
+console.log(num);
+
+var toss = Math.floor(Math.random() *2)+1
+console.log(toss);
+var ask = parseInt(prompt("For toss, type 2 for  Head or 1 for Tail"))
+if (ask === toss){
+   alert("Fired!")
+}else if(ask!== toss){
+   alert("You Won!")
+}
+
+var num = parseInt(prompt("enter a number"))
+
+var str ="123"
+var num = parseInt(str)
+console.log(num);
+
+var q = "34.67"
+var float = parseFloat(q)
+console.log(float);
+
+var num = Number("231")
+console.log(num);
+
+var n = 785
+var s = n.toString()
+console.log(s);
+
+var number = 42
+var str = number.toString()
+console.log(str);
+
+var str = "3.14"
+var num = parseInt(str)
+console.log(num);
+
+var num = 356.0976354
+var round = num.toFixed(4)
+console.log(round);
+var newNum = round.toString()
+console.log(newNum);
+
+var num = 45.98754
+var newNum = num.toFixed(2) +","+ num.toString() + "," + parseInt(num)
+console.log(newNum);
+
+if(number==num.toFixed(2) && number==num.toString() && number.charAt(5)===num.toString().charAt(5)){
+
+}
+
+var  num = 98.56789
+alert(num.toFixed(2)+","+num.toString())
