@@ -16,7 +16,7 @@ alert("Happy Coding!\nPrevent this message from creating additional dialogs")
 // prompt("Prevent this message from creating additional dialogs")
 
 //message through console
-let message1=("Hello... I can run JS through my web browser's console")
+let message1 = ("Hello... I can run JS through my web browser's console")
 console.log(message1);
 
 //variable string
@@ -51,24 +51,24 @@ alert(education)
 
 //display the alert using one JS variable
 var a = "PIZZA\nPIZZ\nPIZ\nPI\nP"
-alert(a) 
+alert(a)
 
 //variable called email and assign to it a string
-var email="abc@gmail.com"
+var email = "abc@gmail.com"
 console.log(email);
 
 //Show message in an alert box.by using string concatenation
 alert(`My email address is ${email}`)
 
 //Declare a variable called book and display message
-var book="A smarter way to learn JavaScript"
+var book = "A smarter way to learn JavaScript"
 alert(`I am trying to learn from the Book ${book}`)
 
 //display in browser
 document.write("Yah! I can write HTML content through javascript");
 
 //store string in var and show in alert
-var design="▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
+var design = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
 
 alert(design)
 
@@ -79,20 +79,20 @@ var age = 23;
 alert(`I am ${age} years old`)
 
 //visit count
-var visitCount =1;
+var visitCount = 1;
 alert(`you have visited this site ${visitCount} times`)
-var visitCount1 =2;
+var visitCount1 = 2;
 alert(`you have visited this site ${visitCount1} times`)
 
 //birth year
 var birthYear = 2002
-document.write(`My birth year is ${birthYear}\n\n`) 
+document.write(`My birth year is ${birthYear}\n\n`)
 
 //clothing store
-var name="John"
-var order=5
-var storeName="'xyz clothing store'"
-document.write(`${name} ordered ${order} T-shirts from ${storeName}`,string) 
+var name = "John"
+var order = 5
+var storeName = "'xyz clothing store'"
+document.write(`${name} ordered ${order} T-shirts from ${storeName}`, string)
 
 //Assignment 2
 
@@ -107,23 +107,23 @@ alert("This is my assignment")
 
 //chapter 2
 var myName = "Tanzeel Qamar"
-var myEducation 
+var myEducation
 myEducation = "Msc Chemistry"
 console.log(myEducation);
 var teamName = "Tanzeel, Fareeba"
 alert(teamName)
 var bestMan = "Charlie"
-bestMan="John"
+bestMan = "John"
 console.log(bestMan)
 
 //chapter 3
-var caseQty 
+var caseQty
 caseQty = 144
 var num = "9"
 var num1 = 6
 var num2 = 10
 var sum
-sum = num1 + num2 
+sum = num1 + num2
 console.log(sum);
 var merchTotal = 100
 var shippingCharge = 10
@@ -138,7 +138,7 @@ console.log(number1);
 //Assignment 3
 
 //chapter 4
-var firstName = "tanzeel" , lastName = "qamar" , age = 23
+var firstName = "tanzeel", lastName = "qamar", age = 23
 //illegal
 var alert = "message"
 var class = "popup"
@@ -148,52 +148,52 @@ var array = "list"
 //legal
 var name = "tanzeel"
 var userInfo = "info"
-var num1= 10
+var num1 = 10
 var $list = "list"
 var _animal = "animal"
-document.write ("Rules for naming JS variables"+"<h3/>")
-document.write ("variable names can only contain $, _, letters, numbers")
-document.write ("For example $my_1stVariable")
-document.write ("Variables must begin with a $, _, letters")
-document.write ("For example $name, _name or name")
+document.write("Rules for naming JS variables" + "<h3/>")
+document.write("variable names can only contain $, _, letters, numbers")
+document.write("For example $my_1stVariable")
+document.write("Variables must begin with a $, _, letters")
+document.write("For example $name, _name or name")
 document.write("Variable names are case sensitive")
-document.write ("Variable names should not be JS keywords")
+document.write("Variable names should not be JS keywords")
 
 
 //chapter 5
-var num1 =10
+var num1 = 10
 var num2 = 20
-var result = num1+ num2 
+var result = num1 + num2
 document.write("the sum of 10 and 20 is " + result)
 
-var num1 =10
+var num1 = 10
 var num2 = 20
-var result = num1 - num2 
+var result = num1 - num2
 document.write("the difference of 10 and 20 is " + result)
 
-var num1 =10
+var num1 = 10
 var num2 = 20
-var result = num1 * num2 
+var result = num1 * num2
 document.write("the multiple of 10 and 20 is " + result)
 
-var num1 =10
+var num1 = 10
 var num2 = 20
-var result = num1 / num2 
+var result = num1 / num2
 document.write("the division of 10 and 20 is " + result)
 
-var num1 =10
+var num1 = 10
 var num2 = 20
-var result = num1 % num2 
+var result = num1 % num2
 document.write("the remainder of 10 and 20 is " + result)
 
-var number1 
+var number1
 document.write("Value after variable declaration is:" + number1)
 number1 = 5
 document.write("initial vale :" + number1)
-number1= ++number1
+number1 = ++number1
 console.log(number1)
 document.write("value after increment is:" + number1)
-number1 = 7+number1
+number1 = 7 + number1
 document.write("value after addition is:" + number1)
 number1 = --number1
 document.write("value after deccrement is:" + number1)
@@ -202,19 +202,19 @@ document.write("value remainder is:" + number1)
 
 
 var ticketPrice = 600
-var price5 = ticketPrice*5
-document.write ("Cost of buying 5 tickets is:" + price5)
+var price5 = ticketPrice * 5
+document.write("Cost of buying 5 tickets is:" + price5)
 
 var num = 7
 document.write("Table of 7")
-for (var i=1; i<=10; i++){
-    document.write(num + "x" + i + "=" + num*i);
+for (var i = 1; i <= 10; i++) {
+    document.write(num + "x" + i + "=" + num * i);
 }
 
 var celsius = 35
-var convert = (celsius * 9/5)+32
+var convert = (celsius * 9 / 5) + 32
 var temp = `temperature in oF is ${convert}oF`
-var convert1 =(convert - 32)*5/9
+var convert1 = (convert - 32) * 5 / 9
 var temp3 = `temperature in oC is ${convert1}oC`
 var temp2 = `temperature in oC is ${celsius}oC`
 console.log(temp);
@@ -227,33 +227,33 @@ var quantity1 = 4
 var item2 = 550
 var quantity2 = 3
 var shippingCharges = 100
-var totalCost = (item1*quantity1) + (item2 * quantity2) + shippingCharges
+var totalCost = (item1 * quantity1) + (item2 * quantity2) + shippingCharges
 document.write(`Price of Item 1 is ${item1}\nQuantity Of item 1 is ${quantity1}\nPrice of item 2 is ${item2}\nquantity of item 2 is ${quantity2}\nTotal cost is ${totalCost}`)
 
 var totalMarks = 1100
 var obtainedMarks = 850
-var percentage = (obtainedMarks/totalMarks)*100
-document.write("Total marks" + totalMarks+ "Obtained Marks"+obtainedMarks+ "The percentage of student is" + percentage)
+var percentage = (obtainedMarks / totalMarks) * 100
+document.write("Total marks" + totalMarks + "Obtained Marks" + obtainedMarks + "The percentage of student is" + percentage)
 
 var usd = 10
 var riyal = 25
-var rupees = (usd*104.80)+(riyal*28)
+var rupees = (usd * 104.80) + (riyal * 28)
 document.write(`Total currency in PKR is ${rupees}`)
 
-var  num = 6
-var result = ((6+5)*10)/2
+var num = 6
+var result = ((6 + 5) * 10) / 2
 console.log(result);
 
-var currentYear=2025
+var currentYear = 2025
 var birthYear = 2002
-var age1=currentYear-birthYear
-var age2 = currentYear+birthYear
-document.write("“They are either" +age1+ "or" +age2+ "years old”.")
+var age1 = currentYear - birthYear
+var age2 = currentYear + birthYear
+document.write("“They are either" + age1 + "or" + age2 + "years old”.")
 
-var title =" The Geometrizer"
+var title = " The Geometrizer"
 var radius = 30
-var circumference= 2*3.14*radius
-var area = 3.14*radius*radius
+var circumference = 2 * 3.14 * radius
+var area = 3.14 * radius * radius
 document.write(title)
 document.write(`The circumference of circle is ${circumference}`)
 document.write(`The area of circle is ${area}`)
@@ -262,7 +262,7 @@ var snack = "jelly"
 var currentAge = 23
 var maxAge = 50
 var snackPerDay = 2
-var eatTotal = (maxAge-currentAge)*snackPerDay
+var eatTotal = (maxAge - currentAge) * snackPerDay
 document.write(`you will need ${eatTotal} jellies to lat you until the ripe old age of ${maxAge}`)
 
 var a = 10
@@ -290,25 +290,25 @@ console.log(result); //ans = -3
 document.write(`The value of a is -2 and value of b is -1 and result is -3`)
 
 var question = "What is your name?"
-var popup = prompt(question,"Human")
+var popup = prompt(question, "Human")
 var answer = "Tanzeel"
-if (popup == answer){
+if (popup == answer) {
     alert("Welcome to this website")
 }
-else{
+else {
     alert("You are a Robot!!!")
 }
 
 var ask = "Enter a number"
-var popUp = prompt (ask)
+var popUp = prompt(ask)
 var ans = 2
-for(i=0, i<=10; i++;)
-if(popUp=ans){
-    console.log(ans + "x" + i + "=" + ans*i)
-}
-else{
-    console.log(5 + "x" + i + "=" + 5*i)
-}
+for (i = 0, i <= 10; i++;)
+    if (popUp = ans) {
+        console.log(ans + "x" + i + "=" + ans * i)
+    }
+    else {
+        console.log(5 + "x" + i + "=" + 5 * i)
+    }
 
 var sub1 = "English"
 var sub2 = "Urdu"
@@ -320,15 +320,15 @@ var obt_1 = 67
 var obt_2 = 89
 var obt_3 = 98
 
-var total = total_marks*3
+var total = total_marks * 3
 
-var total_obt = obt_1+obt_2+obt_3
+var total_obt = obt_1 + obt_2 + obt_3
 
-var sub1Percentage = (obt_1/total_marks)*100
-var sub2Percentage = (obt_2/total_marks)*100
-var sub3Percentage = (obt_3/total_marks)*100
+var sub1Percentage = (obt_1 / total_marks) * 100
+var sub2Percentage = (obt_2 / total_marks) * 100
+var sub3Percentage = (obt_3 / total_marks) * 100
 
-var total_percentage = (total_obt/total)*100
+var total_percentage = (total_obt / total) * 100
 
 document.write(sub1, total_marks, obt_1, sub1Percentage)
 document.write(sub2, total_marks, obt_2, sub2Percentage)
@@ -341,10 +341,10 @@ document.write(total, total_obt, total_percentage)
 var q1 = "Enter Your City"
 var q2 = prompt(q1, "City")
 var q1_ans = "Karachi"
-if(q2 == q1_ans){
+if (q2 == q1_ans) {
     alert("Welcome To Karachi City")
 }
-else{
+else {
     alert("Error!!!")
 }
 
@@ -352,138 +352,138 @@ var quest = "What is your gender?"
 var quest1 = prompt(quest)
 var female = "Female"
 var male = "Male"
-if(quest1==female){
+if (quest1 == female) {
     alert("Good Morning Maam")
 }
-else{
+else {
     alert("Welcome Sir")
 }
- var signal = "Enter color of traffic signal"
- var _signal = prompt(signal)
- var color1 = "red"
- var color2 = "Yellow"
- var color3 = "green"
- if(_signal==color1){
+var signal = "Enter color of traffic signal"
+var _signal = prompt(signal)
+var color1 = "red"
+var color2 = "Yellow"
+var color3 = "green"
+if (_signal == color1) {
     alert("Must stop")
- }
- else if(_signal==color2){
+}
+else if (_signal == color2) {
     alert("Ready to move")
- }
- else if (_signal==color3){
+}
+else if (_signal == color3) {
     alert("Move now")
- }
+}
 
- var fuel = "How much fuel is left in the car?(In litres)"
- var fuel_ans = prompt(fuel) 
- if(fuel_ans < 0.25){
-     alert("Refill the fuel")
- }
- else{
+var fuel = "How much fuel is left in the car?(In litres)"
+var fuel_ans = prompt(fuel)
+if (fuel_ans < 0.25) {
+    alert("Refill the fuel")
+}
+else {
     alert("You have enough fuel")
- }
+}
 
 
- var d = 4;
-if (++d === 5){
-alert("given condition for variable d is true"); //true
+var d = 4;
+if (++d === 5) {
+    alert("given condition for variable d is true"); //true
 }
 var e = 82;
-if (e++ === 83){
-alert("given condition for variable e is true");
+if (e++ === 83) {
+    alert("given condition for variable e is true");
 }
 var f = 12;
-if (f++ === 13){
-alert("condition 1 is true");
+if (f++ === 13) {
+    alert("condition 1 is true");
 }
-if (f === 13){
-alert("condition 2 is true"); //true
+if (f === 13) {
+    alert("condition 2 is true"); //true
 }
-if (++f < 14){
-alert("condition 3 is true");
+if (++f < 14) {
+    alert("condition 3 is true");
 }
-if(f === 14){
-alert("condition 4 is true"); //true
+if (f === 14) {
+    alert("condition 4 is true"); //true
 }
 var materialCost = 20000;
 var laborCost = 2000;
 var totalCost = materialCost + laborCost;
-if (totalCost === laborCost + materialCost){
-alert("The cost equals"); //true
+if (totalCost === laborCost + materialCost) {
+    alert("The cost equals"); //true
 }
-if (true){
-alert("True"); //true
+if (true) {
+    alert("True"); //true
 }
-if (false){
-alert("False");
+if (false) {
+    alert("False");
 }
-if("car" < "cat"){
+if ("car" < "cat") {
     alert("car is smaller than cat"); //printed
-    }
+}
 
 var secretNumber = 6
 var questions = prompt("Guess any number")
-if(questions==secretNumber){
+if (questions == secretNumber) {
     alert("Bongo!Correct answer")
 }
-else if(questions== ++secretNumber){
+else if (questions == ++secretNumber) {
     alert("Close one")
 }
-else{
+else {
     alert("Try again")
 }
 
 var divide = prompt("Enter a number and check whether it is divisible by 3 or not")
-if(divide%3===0){
+if (divide % 3 === 0) {
     alert("This number can be divisible by 3")
 }
-else{
+else {
     alert("This number cannot be divisible by 3")
 }
 
 var even = prompt("Enter a number and check whether it is even or odd")
-if(even%2===0){
+if (even % 2 === 0) {
     alert("the number is even")
 }
-else{
+else {
     alert("the number is odd")
 }
 
-var temperature=prompt("Enter Temperature")
-if(temperature>40){
+var temperature = prompt("Enter Temperature")
+if (temperature > 40) {
     alert("Its too hot outside")
 }
-else if(temperature>30){
+else if (temperature > 30) {
     alert("The weather today is normal")
 }
-else if(temperature>20){
+else if (temperature > 20) {
     alert("Today's weather is cool")
 }
-else if(temperature>10){
+else if (temperature > 10) {
     alert("OMG! today's weather is so cool")
 }
 
 var num_1 = 45
 var num_2 = 102
 var add = "+"
-var sub ="-"
+var sub = "-"
 var multiply = "*"
 var divide = "/"
 var remainder = "%"
 var input = prompt("Which operation do you want to perform? +, -, *, / or %")
-if(input==add){
-    alert(num_1+num_2)
+if (input == add) {
+    alert(num_1 + num_2)
 }
-else if(input==sub){
-    alert(num_1-num_2)
+else if (input == sub) {
+    alert(num_1 - num_2)
 }
-else if(input==multiply){
-    alert(num_1*num_2)
+else if (input == multiply) {
+    alert(num_1 * num_2)
 }
-else if(input==divide){
-    alert(num_1/num_2)
+else if (input == divide) {
+    alert(num_1 / num_2)
 }
-else if(input==remainder){
-    alert(num_1%num_2)
+else if (input == remainder) {
+    alert(num_1 % num_2)
 }
 
 //chapter 4
@@ -493,7 +493,7 @@ var nameOfBand;
 var _num = 5
 var first_name = "tanzeel"
 var last_name = "qamar"
-var full_name =first_name+last_name
+var full_name = first_name + last_name
 //legal
 var myName
 var _name
@@ -504,15 +504,15 @@ var var
 var null
 var 12name
 var Name
-var let 
+var let
 var user-name
 
 //chapter 5
- //answer => %(Modulus gives the remainder)
+//answer => %(Modulus gives the remainder)
 var num = 20 % 6; //value 2
 var numA = 1000
 var numB = 2000
-var largeNumber = numA*numB
+var largeNumber = numA * numB
 var anum = 350
 var bnum = 270
 var result = anum - bnum
@@ -532,22 +532,22 @@ console.log(y);
 var y = 50;
 var u = --y;
 console.log(u); //value of u = 49
-var oldNum = 20, oldNum= --oldNum, newNum=++oldNum
-var oldNum = 30, oldNum= ++oldNum, newNum=--oldNum
+var oldNum = 20, oldNum = --oldNum, newNum = ++oldNum
+var oldNum = 30, oldNum = ++oldNum, newNum = --oldNum
 alert(oldNum)
 
 //chapter 7
 
-var calculatedNum = 2 + (2 * 6); 
+var calculatedNum = 2 + (2 * 6);
 console.log(calculatedNum); // calculatedNum = 14
 
-var calculatedNum = (2 + 2) * 6; 
+var calculatedNum = (2 + 2) * 6;
 console.log(calculatedNum);// calculatedNum = 24
 
-var calculatedNum = (2 + 2) * (4 + 2); 
+var calculatedNum = (2 + 2) * (4 + 2);
 console.log(calculatedNum); // calculatedNum = 24
 
-var calculatedNum = ((2 + 2) * 4) + 2; 
+var calculatedNum = ((2 + 2) * 4) + 2;
 console.log(calculatedNum);// calculatedNum = 18
 
 var costOfResult = (2 + 2) * (4 + 10)
@@ -568,7 +568,7 @@ alert("33" + 3); //333 displayed
 
 var countryName = "Pakistan"
 var slogan = "Zindabad"
-alert(countryName+slogan)
+alert(countryName + slogan)
 
 var num = 32
 var letter = "string"
@@ -582,7 +582,7 @@ var final = `My country is ${value1} and my city is ${value2}`
 var question = "enter first name"
 var first_name = prompt(question)
 var country = "your country?"
-var my_country  = prompt(country, "China")
+var my_country = prompt(country, "China")
 
 var yourName = prompt("Enter Your Name");
 var message = "Enter your name"
@@ -591,70 +591,69 @@ var _message = prompt(message, "tanzeel")
 var fvrtSnack = "what is your favourite snack?"
 var fvrtBiscuit = "biscuit"
 var question = prompt(fvrtSnack, fvrtBiscuit)
-var response =  "Favourite snack is biscuit"
+var response = "Favourite snack is biscuit"
 
-var ask = prompt("Are you a student or a teacher?" , "student")
-if (ask =="student")
-{
+var ask = prompt("Are you a student or a teacher?", "student")
+if (ask == "student") {
     alert("you are a stusent")
 }
-else{
+else {
     alert("you are a teacher")
 }
 
 //chapter 10
 var askCity = prompt("Enter your city")
 var city = "Karachi"
-if (askCity == city) { 
-console.log("The City Of Lights")
+if (askCity == city) {
+    console.log("The City Of Lights")
 }
 
 var x = 10
 var y = 10
 var askValue = prompt("enter the value of x")
 var z = 20
-if(x === y){
+if (x === y) {
     prompt("enter value of z")
 }
 
 var askZipCode = prompt("Enter Zip Code")
 var zipCode = 10010
-if(askZipCode===zipCode){
+if (askZipCode === zipCode) {
     alert("Karachi")
 }
-else{
+else {
     alert("Please write correct city!")
 }
 
 var x = 6
 var $question = prompt("enter a value")
-if($question===x){
-    x=1
+if ($question === x) {
+    x = 1
 }
 console.log(x);
 
-if(zipcode !== 10010){
+if (zipcode !== 10010) {
     alert("incorrect zip code")
 }
 
-if(x>=y){
+if (x >= y) {
     alert("X is greater or equal to y")
 }
 
 var x = "name"
 var y = 5
-if(x!==y){
-    x=6
+if (x !== y) {
+    x = 6
 }
-var a =4
+var a = 4
 var b = 7
-if(a!==b){
+if (a !== b) {
     alert("Congratulations!")
 }
 
 var my_name = "Tanzeel"
 var askName = prompt("Enter your name")
-if(askName!==my_name){
+if (askName !== my_name) {
     alert("No Match!")
 }
 
@@ -663,95 +662,96 @@ if(askName!==my_name){
 
 //chapter 12-13
 
-var input =prompt("Enter a character. it can be a string or a number")
-if(input >=65 && input <=90){
+var input = prompt("Enter a character. it can be a string or a number")
+if (input >= 65 && input <= 90) {
     alert("It is an uppercase letter")
 }
-else if(input>=97 && input <=122){
+else if (input >= 97 && input <= 122) {
     alert("It is a lowercase letter")
-}else if(input==="A"){
-   alert("The number is 65")
+} else if (input === "A") {
+    alert("The number is 65")
 }
-else if(input==="Z"){
-   alert("The number is 90")
-}else if(input==="a"){
-   alert("The number is 97")
-}else if(input==="z"){
-   alert("The number is 122")
+else if (input === "Z") {
+    alert("The number is 90")
+} else if (input === "a") {
+    alert("The number is 97")
+} else if (input === "z") {
+    alert("The number is 122")
 }
-else{
-   alert("please enter number between 65-122 or (A, a, Z or z")
+else {
+    alert("please enter number between 65-122 or (A, a, Z or z")
 }
 
 var ask_1 = parseInt(prompt("Enter the character"))
 var ask_2 = parseInt(prompt("Enter another character"))
-if(ask_1 === ask_2){
+if (ask_1 === ask_2) {
     alert("The numbers are equal")
-}else if(ask_1 > ask_2){
+} else if (ask_1 > ask_2) {
     alert(`${ask_1}`)
 }
-else if (ask_2 > ask_1){
+else if (ask_2 > ask_1) {
     alert(`${ask_2}`)
 }
 
 var checkNumbers = parseInt(prompt("Enter any number"))
-if(checkNumbers > 0){
+if (checkNumbers > 0) {
     alert("The number is positive")
-}else if (checkNumbers < 0){
+} else if (checkNumbers < 0) {
     alert("The number is negative")
-}else if (checkNumbers === 0){
-    alert ("The number is zero")
+} else if (checkNumbers === 0) {
+    alert("The number is zero")
 }
 
 var letter = prompt("Enter a letter")
-if(letter && letter.length === 1 && letter==="a" || letter ==="e" || letter ==="i" || letter ==="o" || letter ==="u"){
+if (letter && letter.length === 1 && letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u") {
     alert("True")
-} else{
+} else {
     alert("false")
 }
 
 var correctPassword = "abcd123"
 var question = prompt("Enter your password")
-if(question===correctPassword){
+if (question === correctPassword) {
     alert("Correct!")
-}else if(question!==correctPassword){
+} else if (question !== correctPassword) {
     alert("Incorrect password!")
 }
-else{
+else {
     alert("Enter your password!")
 }
 
 var greeting;
 var hour = 13;
-if(hour<18){
+if (hour < 18) {
     greeting = "Good Day"
-}else{
+} else {
     greeting = "Good Evening"
 }
 
 var time = parseInt(prompt("What time is it?"))
-if(time >= 0o0 && time <=1200){
+if (time >= 0o0 && time <= 1200) {
     alert("Good Morning")
-}else if (time>=1200 && time <=1700){
+} else if (time >= 1200 && time <= 1700) {
     alert("Good Afternoon")
-}else if (time>=1700 && time <=2100){
+} else if (time >= 1700 && time <= 2100) {
     alert("Good Evening")
-}else if (time>=2100 && time <=2359){
+} else if (time >= 2100 && time <= 2359) {
     alert("Good Night")
-}else{
+} else {
     alert("Please enter correct time")
 }
 
 var student_name = [""]
 var student1 = new Array("")
-var subjects = ["english", "urdu", "maths","islamiat", "computer", "science"]
+var subjects = ["english", "urdu", "maths", "islamiat", "computer", "science"]
 var counting = [1, 2, 3, 4, 5, 6, 7]
-var trfl = [true,false]
+var trfl = [true, false]
 var mixed = ["name", 50, true]
 
 var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "Mphil", "Phd"]
-for(var i=0; i<qualifications.length; i++){
-console.log(education[i]);}
+for (var i = 0; i < qualifications.length; i++) {
+    console.log(education[i]);
+}
 
 
 
@@ -759,88 +759,88 @@ var studentName = ["Michael", "John", "Tony"]
 var studentScore = [320, 230, 480]
 var totalMarks = 500
 var percentage;
-studentName.splice(1,1,)
-studentName.splice(1,1,)
-studentScore.splice(1,1,)
-studentScore.splice(1,1,)
-var result = `score of ${studentName} is ${studentScore} with ${percentage=(studentScore*100)/totalMarks}%`
+studentName.splice(1, 1,)
+studentName.splice(1, 1,)
+studentScore.splice(1, 1,)
+studentScore.splice(1, 1,)
+var result = `score of ${studentName} is ${studentScore} with ${percentage = (studentScore * 100) / totalMarks}%`
 console.log(result);
-studentName.splice(0,1,"John")
-studentScore.splice(0,1,230)
-var result = `score of ${studentName} is ${studentScore} with ${percentage=(studentScore*100)/totalMarks}%`
+studentName.splice(0, 1, "John")
+studentScore.splice(0, 1, 230)
+var result = `score of ${studentName} is ${studentScore} with ${percentage = (studentScore * 100) / totalMarks}%`
 console.log(result);
-studentName.splice(0,1,"Tony")
-studentScore.splice(0,1,480)
-var result = `score of ${studentName} is ${studentScore} with ${percentage=(studentScore*100)/totalMarks}%`
+studentName.splice(0, 1, "Tony")
+studentScore.splice(0, 1, 480)
+var result = `score of ${studentName} is ${studentScore} with ${percentage = (studentScore * 100) / totalMarks}%`
 console.log(result);
 
 
 var colorNames = ["black", "red", "purple", "pink", "brown", "blue", "white"]
 var q = prompt("What color do you want to aadd in the begining?")
-if(q===colorNames[0]){
-    colorNames.splice(0,0,"black")
-   //  console.log(colorNames);
-    colorNames.splice(0,1)
+if (q === colorNames[0]) {
+    colorNames.splice(0, 0, "black")
+    //  console.log(colorNames);
+    colorNames.splice(0, 1)
     console.log(colorNames);
-}else if(q===colorNames[1]){
-   colorNames.splice(0,1,"red")
-   // console.log(colorNames);
-   colorNames.splice(1,0,"black")
-   // console.log(colorNames);
-   colorNames.splice(1,1)
-   // console.log(colorNames);
+} else if (q === colorNames[1]) {
+    colorNames.splice(0, 1, "red")
+    // console.log(colorNames);
+    colorNames.splice(1, 0, "black")
+    // console.log(colorNames);
+    colorNames.splice(1, 1)
+    // console.log(colorNames);
 }
-else if(q===colorNames[2]){
-   colorNames.splice(0,1,"purple")
-   // console.log(colorNames);
-   colorNames.splice(2,0,"red")
-   // console.log(colorNames);
-   colorNames.splice(1,0,"black")
-   // console.log(colorNames);
-   colorNames.splice(3,2)
-   console.log(colorNames);
+else if (q === colorNames[2]) {
+    colorNames.splice(0, 1, "purple")
+    // console.log(colorNames);
+    colorNames.splice(2, 0, "red")
+    // console.log(colorNames);
+    colorNames.splice(1, 0, "black")
+    // console.log(colorNames);
+    colorNames.splice(3, 2)
+    console.log(colorNames);
 }
-else if(q===colorNames[3]){
-   colorNames.splice(0,1,"pink")
-   // console.log(colorNames);
-   // colorNames.splice(2,0,"red")
-   // console.log(colorNames);
-   colorNames.splice(1,0,"black")
-   // console.log(colorNames);
-   colorNames.splice(4,1)
-   // console.log(colorNames);
-   colorNames.splice(3,0)
-   console.log(colorNames);
+else if (q === colorNames[3]) {
+    colorNames.splice(0, 1, "pink")
+    // console.log(colorNames);
+    // colorNames.splice(2,0,"red")
+    // console.log(colorNames);
+    colorNames.splice(1, 0, "black")
+    // console.log(colorNames);
+    colorNames.splice(4, 1)
+    // console.log(colorNames);
+    colorNames.splice(3, 0)
+    console.log(colorNames);
 }
-else if(q===colorNames[4]){
-   colorNames.splice(0,1,"brown")
-   // console.log(colorNames);
-   colorNames.splice(1,0,"black")
-   // console.log(colorNames);
-   colorNames.splice(5,1)
-   // console.log(colorNames);
-   colorNames.splice(3,0)
-   console.log(colorNames);
+else if (q === colorNames[4]) {
+    colorNames.splice(0, 1, "brown")
+    // console.log(colorNames);
+    colorNames.splice(1, 0, "black")
+    // console.log(colorNames);
+    colorNames.splice(5, 1)
+    // console.log(colorNames);
+    colorNames.splice(3, 0)
+    console.log(colorNames);
 }
-else if(q===colorNames[5]){
-   colorNames.splice(0,1,"blue")
-   // console.log(colorNames);
-   colorNames.splice(1,0,"black")
-   // console.log(colorNames);
-   colorNames.splice(6,1)
-   // console.log(colorNames);
-   colorNames.splice(3,0)
-   console.log(colorNames);
+else if (q === colorNames[5]) {
+    colorNames.splice(0, 1, "blue")
+    // console.log(colorNames);
+    colorNames.splice(1, 0, "black")
+    // console.log(colorNames);
+    colorNames.splice(6, 1)
+    // console.log(colorNames);
+    colorNames.splice(3, 0)
+    console.log(colorNames);
 }
-else if(q===colorNames[6]){
-   colorNames.splice(0,1,"white")
-   // console.log(colorNames);
-   colorNames.splice(1,0,"black")
-   // console.log(colorNames);
-   colorNames.splice(7,1)
-   // console.log(colorNames);
-   colorNames.splice(3,0)
-   console.log(colorNames);
+else if (q === colorNames[6]) {
+    colorNames.splice(0, 1, "white")
+    // console.log(colorNames);
+    colorNames.splice(1, 0, "black")
+    // console.log(colorNames);
+    colorNames.splice(7, 1)
+    // console.log(colorNames);
+    colorNames.splice(3, 0)
+    console.log(colorNames);
 }
 colorNames.unshift("yellow", "green")
 console.log(colorNames);
@@ -855,68 +855,68 @@ console.log(colorNames);
 var colorNames = ["black", "red", "purple", "pink", "brown"]
 var q = +prompt("At which index do you want to add the color?")
 var q2 = prompt("enter color name")
-if((q==0)||(q2 == "red")){ 
-   colorNames.splice(0,0,"red")
-   colorNames.splice(2,1)
-   console.log(colorNames);
-}else if ((q==1)||(q2 == "pink")){ 
-   colorNames.splice(1,0,"pink")
-   console.log(colorNames);
-   colorNames.splice(4,1)
-   console.log(colorNames);
+if ((q == 0) || (q2 == "red")) {
+    colorNames.splice(0, 0, "red")
+    colorNames.splice(2, 1)
+    console.log(colorNames);
+} else if ((q == 1) || (q2 == "pink")) {
+    colorNames.splice(1, 0, "pink")
+    console.log(colorNames);
+    colorNames.splice(4, 1)
+    console.log(colorNames);
 }
-else if ((q==4)||(q2 == "black")){ 
-   colorNames.splice(4,0,"black")
-   console.log(colorNames);
-   colorNames.splice(0,1)
-   console.log(colorNames);
-}else if ((q==5)||(q2 == "purple")){ 
-   colorNames.splice(5,0,"purple")
-   console.log(colorNames);
-   colorNames.splice(2,1)
-   console.log(colorNames);
-}else if ((q==2)||(q2 == "brown")){ 
-   colorNames.splice(2,0,"brown")
-   console.log(colorNames);
-   colorNames.splice(5,1)
-   console.log(colorNames);
-}else if((q==4)||(q2=="black")){
-   colorNames.splice(4,0,"black")
-   console.log(colorNames);
-   colorNames.shift()
-   console.log(colorNames);
+else if ((q == 4) || (q2 == "black")) {
+    colorNames.splice(4, 0, "black")
+    console.log(colorNames);
+    colorNames.splice(0, 1)
+    console.log(colorNames);
+} else if ((q == 5) || (q2 == "purple")) {
+    colorNames.splice(5, 0, "purple")
+    console.log(colorNames);
+    colorNames.splice(2, 1)
+    console.log(colorNames);
+} else if ((q == 2) || (q2 == "brown")) {
+    colorNames.splice(2, 0, "brown")
+    console.log(colorNames);
+    colorNames.splice(5, 1)
+    console.log(colorNames);
+} else if ((q == 4) || (q2 == "black")) {
+    colorNames.splice(4, 0, "black")
+    console.log(colorNames);
+    colorNames.shift()
+    console.log(colorNames);
 }
 
 q3 = prompt("Which color do you want to delete?enter index")
 q4 = prompt("how many color do you want to delete?")
-if((q3==2) && (q4==2)){
-   colorNames.splice(1,2)
-   console.log(colorNames)
-}else if((q3==1)&&(q4==2)){
-   colorNames.splice(0,2)
-   console.log(colorNames);
+if ((q3 == 2) && (q4 == 2)) {
+    colorNames.splice(1, 2)
+    console.log(colorNames)
+} else if ((q3 == 1) && (q4 == 2)) {
+    colorNames.splice(0, 2)
+    console.log(colorNames);
 }
-else if((q3==4)&&(q4==0)){
-   colorNames.splice(3,0)
-   console.log(colorNames);
-}else if((q3==3)&&(q4==1)){
-   colorNames.splice(2,1)
-   console.log(colorNames);
+else if ((q3 == 4) && (q4 == 0)) {
+    colorNames.splice(3, 0)
+    console.log(colorNames);
+} else if ((q3 == 3) && (q4 == 1)) {
+    colorNames.splice(2, 1)
+    console.log(colorNames);
 }
 
 var scores = [320, 230, 480, 120]
-scores.sort((a,b)=>a-b)
+scores.sort((a, b) => a - b)
 console.log(scores);
 
 var citiesList = ["Karachi", "Lahore", "Islamabad", "Multan", "Quetta"]
-citiesList.splice(0,3)
+citiesList.splice(0, 3)
 console.log(citiesList);
 
 var arr = ["This", "is", "my", "cat"]
 var str = arr.join(" ")
 console.log(str);
 
-var devices =["keyboard", "mouse", "printer", "monitor"]
+var devices = ["keyboard", "mouse", "printer", "monitor"]
 var first = devices.shift()
 console.log(first);
 var last = devices.pop()
@@ -924,8 +924,8 @@ console.log(last);
 
 var mobile = ["Apple", "samsung", "nokia", "Motorola", "sony", "haier"]
 document.write("<select>")
-for (var i=0; i < mobile.length; i++)
-   document.write(`<option> ${mobile[i]}</option>`)
+for (var i = 0; i < mobile.length; i++)
+    document.write(`<option> ${mobile[i]}</option>`)
 document.write("</select>")
 
 
@@ -933,9 +933,9 @@ document.write("</select>")
 
 var a = 23
 var b = 67
-if(a===b){
+if (a === b) {
     alert("Both values are equal")
-}else if(a!==b){
+} else if (a !== b) {
     alert("both values are not equal")
 }
 
@@ -947,40 +947,40 @@ var mathMarks = +prompt("enter your math marks")
 var englishMarks = +prompt("enter your english marks")
 var computerMarks = +prompt("enter your computer marks")
 var urduMarks = +prompt("enter your urdu marks")
-var totalMarks=400
+var totalMarks = 400
 var percentage;
 var grade;
 var obtainedMarks;
-if(mathMarks<=50 || englishMarks<=50 || computerMarks<=50 || urduMarks<=50){
-   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
-   percentage=(obtainedMarks*100)/totalMarks
-   grade="F"
-}else if((mathMarks>=51 || englishMarks>=51 || computerMarks>=51 || urduMarks>=51)||(mathMarks<=60 || englishMarks<=60 || computerMarks<=60 || urduMarks<=60)){
-   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
-   percentage=(obtainedMarks*100)/totalMarks
-   grade="D"
+if (mathMarks <= 50 || englishMarks <= 50 || computerMarks <= 50 || urduMarks <= 50) {
+    obtainedMarks = mathMarks + englishMarks + computerMarks + urduMarks
+    percentage = (obtainedMarks * 100) / totalMarks
+    grade = "F"
+} else if ((mathMarks >= 51 || englishMarks >= 51 || computerMarks >= 51 || urduMarks >= 51) || (mathMarks <= 60 || englishMarks <= 60 || computerMarks <= 60 || urduMarks <= 60)) {
+    obtainedMarks = mathMarks + englishMarks + computerMarks + urduMarks
+    percentage = (obtainedMarks * 100) / totalMarks
+    grade = "D"
 }
-else if((mathMarks>=61 || englishMarks>=61 || computerMarks>=61 || urduMarks>=61)||(mathMarks<=70 || englishMarks<=70 || computerMarks<=70 || urduMarks<=70)){
-   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
-   percentage=(obtainedMarks*100)/totalMarks
-   grade="C"
+else if ((mathMarks >= 61 || englishMarks >= 61 || computerMarks >= 61 || urduMarks >= 61) || (mathMarks <= 70 || englishMarks <= 70 || computerMarks <= 70 || urduMarks <= 70)) {
+    obtainedMarks = mathMarks + englishMarks + computerMarks + urduMarks
+    percentage = (obtainedMarks * 100) / totalMarks
+    grade = "C"
 }
-else if((mathMarks>=71 || englishMarks>=71 || computerMarks>=71 || urduMarks>=71)||(mathMarks<=80 || englishMarks<=80 || computerMarks<=80 || urduMarks<=80)){
-   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
-   percentage=(obtainedMarks*100)/totalMarks
-   grade="B"
+else if ((mathMarks >= 71 || englishMarks >= 71 || computerMarks >= 71 || urduMarks >= 71) || (mathMarks <= 80 || englishMarks <= 80 || computerMarks <= 80 || urduMarks <= 80)) {
+    obtainedMarks = mathMarks + englishMarks + computerMarks + urduMarks
+    percentage = (obtainedMarks * 100) / totalMarks
+    grade = "B"
 }
-else if((mathMarks>=81 || englishMarks>=81 || computerMarks>=81 || urduMarks>=81)||(mathMarks<=90 || englishMarks<=90 || computerMarks<=90 || urduMarks<=90)){
-   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
-   percentage=(obtainedMarks*100)/totalMarks
-   grade="A"
+else if ((mathMarks >= 81 || englishMarks >= 81 || computerMarks >= 81 || urduMarks >= 81) || (mathMarks <= 90 || englishMarks <= 90 || computerMarks <= 90 || urduMarks <= 90)) {
+    obtainedMarks = mathMarks + englishMarks + computerMarks + urduMarks
+    percentage = (obtainedMarks * 100) / totalMarks
+    grade = "A"
 }
-else if((mathMarks>=91 || englishMarks>=91 || computerMarks>=91 || urduMarks>=91)||(mathMarks<=100 || englishMarks<=100 || computerMarks<=100 || urduMarks<=100)){
-   obtainedMarks=mathMarks+englishMarks+computerMarks+urduMarks
-   percentage=(obtainedMarks*100)/totalMarks
-   grade="A+"
+else if ((mathMarks >= 91 || englishMarks >= 91 || computerMarks >= 91 || urduMarks >= 91) || (mathMarks <= 100 || englishMarks <= 100 || computerMarks <= 100 || urduMarks <= 100)) {
+    obtainedMarks = mathMarks + englishMarks + computerMarks + urduMarks
+    percentage = (obtainedMarks * 100) / totalMarks
+    grade = "A+"
 }
-var marksheet= `
+var marksheet = `
 ----------------------------
 Name:${userName}
 Class: ${userclass}
@@ -998,72 +998,72 @@ Grade: ${grade}
 `
 console.log(marksheet)
 
-if(a===10){
+if (a === 10) {
     alert("a is equal to 10")
-}else{
+} else {
     alert(`The correct value of a is${a}`)
 }
 
 var q1 = prompt("Enter city")
-if(q1 === "Karachi"){
+if (q1 === "Karachi") {
     alert("Acknowledging it's karachi")
-}else if(q1==="lahore"){
+} else if (q1 === "lahore") {
     alert("Acknowledging it's lahore")
-}else{
+} else {
     alert("Acknowledging it is your city")
 }
 
-if(a===b && c===d){
+if (a === b && c === d) {
     alert("true")
 }
 
-if(a===b || c!==d){
+if (a === b || c !== d) {
     alert("true")
 }
 
-if(name==="hamza" || name==="arsalan" && age<70){
-alert("true")
+if (name === "hamza" || name === "arsalan" && age < 70) {
+    alert("true")
 }
 
 var g = 34
 var z = 12
-if(g>z || g<z){
+if (g > z || g < z) {
     alert("g is greater than z")
 }
 
 var $firstName = "tanzeel"
-var $lastName  = "qamar"
+var $lastName = "qamar"
 var q5 = prompt("Enter your first name")
 var q6 = prompt("Enter your last name")
-if(q5===$firstName && q6===$lastName){
+if (q5 === $firstName && q6 === $lastName) {
     alert(`your full name is ${$firstName} ${$lastName}`)
 }
 
 
-if(password!==5){
+if (password !== 5) {
     alert("password must be greater than 5")
-    if(password===5){
+    if (password === 5) {
         alert("ok")
     }
 }
 
-if(a===1){
-    if (c==="Max"){
+if (a === 1) {
+    if (c === "Max") {
         alert("ok")
     }
 }
 
-if (a===1){
+if (a === 1) {
     alert("ok")
-}else if(c==="Max"){
+} else if (c === "Max") {
     alert("ok")
 }
 
 var num1 = 45
 var num2 = 45
-if(num1===num2){
+if (num1 === num2) {
     alert("ok")
-    if(num1<=num2){
+    if (num1 <= num2) {
         alert("incorrect")
     }
 }
@@ -1076,7 +1076,7 @@ console.log(letters[2]);
 console.log(letters.length);
 
 var list = ["karachi"]
-list.splice(1,0, "lahore")
+list.splice(1, 0, "lahore")
 console.log(list);
 alert(list[1])
 
@@ -1085,7 +1085,7 @@ score.push(65)
 console.log(score);
 alert(score[1])
 
-var alphabet=["h","i","j","k"]
+var alphabet = ["h", "i", "j", "k"]
 alphabet.pop()
 console.log(alphabet);
 alphabet.push(54)
@@ -1094,7 +1094,7 @@ console.log(alphabet);
 var sizes = ["S", "M", "XL", "XXL", "XXXL"]
 sizes.shift()
 console.log(sizes);
-sizes.unshift(23,56,34)
+sizes.unshift(23, 56, 34)
 console.log(sizes);
 
 var classes = ["II"]
@@ -1102,23 +1102,23 @@ classes.unshift("I")
 alert(classes[0])
 
 var sizes = ["S", "M", "XL", "XXL", "XXXL"]
-sizes.splice(2,0,"L")
+sizes.splice(2, 0, "L")
 console.log(sizes);
 
 var sizes = ["S", "M", "XL", "XXL", "XXXL"]
-sizes.splice(0,3)
+sizes.splice(0, 3)
 console.log(sizes);
 var regSizes = ["S", "M", "XL"]
 console.log(regSizes);
 
 var pets = ["dog", "cat", "ox", "duck", "frog"]
-pets.splice(1,3,"cow", "sheep")
+pets.splice(1, 3, "cow", "sheep")
 console.log(pets);
 
 var pets = ["dog", "cat", "ox", "duck", "frog", "flea"]
 pets.slice(0, 3)
 console.log(pets);
-pets.slice(2,0)
+pets.slice(2, 0)
 console.log(pets);
 
 
@@ -1126,155 +1126,156 @@ console.log(pets);
 
 var arr = [[]]
 
-var arr1 = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
-for(var i=0; i<arr1.length; i++){
-    for(var i=0; i<arr1[i].length; i++){
+var arr1 = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]]
+for (var i = 0; i < arr1.length; i++) {
+    for (var i = 0; i < arr1[i].length; i++) {
         console.log(arr1[i][j]);
     }
 }
 
-for(var i=1; i <=10; i++){
-    console.log(i);    
+for (var i = 1; i <= 10; i++) {
+    console.log(i);
 }
 
 
 var num = prompt("enter a number")
-   for(var i=1; i<=10; i++){
-      console.log(num +"x"+ i + "=" + num*i);
-   }
+for (var i = 1; i <= 10; i++) {
+    console.log(num + "x" + i + "=" + num * i);
+}
 
 
-   var fruits = ["apple", "mango", "banana", "orange", "melon"]
-   console.log(fruits);
-   console.log(`element at index ${fruits.indexOf("apple")} is apple`);
-   console.log(`element at index ${fruits.indexOf("mango")} is mango`);
-   console.log(`element at index ${fruits.indexOf("banana")} is banana`);
-   console.log(`element at index ${fruits.indexOf("orange")} is orange`);
-   console.log(`element at index ${fruits.indexOf("melon")} is melon`);
+var fruits = ["apple", "mango", "banana", "orange", "melon"]
+console.log(fruits);
+console.log(`element at index ${fruits.indexOf("apple")} is apple`);
+console.log(`element at index ${fruits.indexOf("mango")} is mango`);
+console.log(`element at index ${fruits.indexOf("banana")} is banana`);
+console.log(`element at index ${fruits.indexOf("orange")} is orange`);
+console.log(`element at index ${fruits.indexOf("melon")} is melon`);
 
 document.write("<h1>Counting</h1>")
-for(var i=1; i<=15; i++){
+for (var i = 1; i <= 15; i++) {
     console.log(i);
     document.write(`${[i]},`)
 }
 
 document.write("<h1>ReverseCounting</h1>")
-for(var i=15; i>=1; i--){
+for (var i = 15; i >= 1; i--) {
     console.log(i);
     document.write(`${[i]},`)
 }
 
 document.write("<h1>Even Numbers:</h1>")
-for(var i=0; i<=20; i+=2){
+for (var i = 0; i <= 20; i += 2) {
     console.log(i);
     document.write(`${[i]},`)
 }
 
 document.write("<h1>Odd Numbers:</h1>")
-for(var i=1; i<=20; i+=2){
+for (var i = 1; i <= 20; i += 2) {
     console.log(i);
     document.write(`${[i]},`)
 }
 
 document.write("<h1>Series:</h1>")
-for(var i=2; i<=20; i+=2){
+for (var i = 2; i <= 20; i += 2) {
     console.log(i);
     document.write(`${[i]}k,`)
 }
 
 var q9 = prompt("What do you want to order?")
 var lst = ["cake", "apple pie", "cookie", "chips", "patties"]
-for(var i=0; i<lst.length; i++){
-   if(q9===lst[i]){
-      alert("available at index"+i)
-   }else if(q9!==lst[i]){
-      alert("sorry not available")
-   }
+for (var i = 0; i < lst.length; i++) {
+    if (q9 === lst[i]) {
+        alert("available at index" + i)
+    } else if (q9 !== lst[i]) {
+        alert("sorry not available")
+    }
 }
 
-var num =[24, 53, 78, 91, 12]
+var num = [24, 53, 78, 91, 12]
 var max = Math.max(...num)
 console.log(`the largest number is ${max}`);
 
 var min = Math.min(...num)
 console.log(`The smallest number is ${min}`);
 
-for(var i=5; i<=100; i+=5)
+for (var i = 5; i <= 100; i += 5)
     console.log(i);
 
 //assignment 22(ii)
 
-for(var i=1; i<=10; i++)
+for (var i = 1; i <= 10; i++)
     console.log(i);
 
-for (var i=1; i<=12; i++)
+for (var i = 1; i <= 12; i++)
     console.log(i);
 
 
-for (var i=0; i<=4; i++)
+for (var i = 0; i <= 4; i++)
     console.log(i);
-    
-for(var j=1; j<101; j++)
+
+for (var j = 1; j < 101; j++)
     console.log(j);
 
-for(var i=3; i>0; i--)
+for (var i = 3; i > 0; i--)
     console.log(i);
 
-var number = [1,2,3,4,5,6]
+var number = [1, 2, 3, 4, 5, 6]
 
 var flag = true;
 
 var pets = ["cat", "dog", "cow", "sheep", "camel"]
-for(var i=1; i<pets.length; i++)
-   console.log(pets[i]);
+for (var i = 1; i < pets.length; i++)
+    console.log(pets[i]);
 console.log(pets.length);
 
-for(var i=1; i<=10; i++){
+for (var i = 1; i <= 10; i++) {
     console.log(i);
- if(i===1){
-    alert(`counter is ${i}`)
- }}
+    if (i === 1) {
+        alert(`counter is ${i}`)
+    }
+}
 
- var names=["tanzeel", "fareeba", "dua", "malika"]
-var firstName =prompt("Enter your name")
+var names = ["tanzeel", "fareeba", "dua", "malika"]
+var firstName = prompt("Enter your name")
 var found;
-for(var i=0; i<names.length; i++){
- if(firstName===names[i]){
-   var found =true
-   break
- }
+for (var i = 0; i < names.length; i++) {
+    if (firstName === names[i]) {
+        var found = true
+        break
+    }
 }
-if(found){
-   alert("Enter")
-}else{
-   alert("enter correct name")
+if (found) {
+    alert("Enter")
+} else {
+    alert("enter correct name")
 }
 
-var list=["pencil", "scale", "sharpner", "eraser"]
+var list = ["pencil", "scale", "sharpner", "eraser"]
 var userInput = prompt("Enter Stationary")
 var matchFound;
-for (var i=0; i<list.length; i++){
-   if (userInput===list[i]){
-      alert("Match Found")
-      matchFound=true;
-      break;
-   }
+for (var i = 0; i < list.length; i++) {
+    if (userInput === list[i]) {
+        alert("Match Found")
+        matchFound = true;
+        break;
+    }
 }
-if(matchFound){
-   alert("Match FOund")
+if (matchFound) {
+    alert("Match FOund")
 }
-else{
-   alert("Not Found")
+else {
+    alert("Not Found")
 }
 
-var firstArr =["a", "b", "c", "d", "e", "f"]
-var secondArr = [1,2,3,4,5,6]
-var combine =[]
-for(var i=0; i<firstArr.length; i++){
-   for(var j=0; j<secondArr.length; j++){
- combine.push(firstArr[i]+secondArr[j])
-   
-   }
+var firstArr = ["a", "b", "c", "d", "e", "f"]
+var secondArr = [1, 2, 3, 4, 5, 6]
+var combine = []
+for (var i = 0; i < firstArr.length; i++) {
+    for (var j = 0; j < secondArr.length; j++) {
+        combine.push(firstArr[i] + secondArr[j])
+
+    }
 }
 console.log(combine);
 
@@ -1284,7 +1285,7 @@ console.log(combine);
 
 var qn = prompt("Enter your first name")
 var qn2 = prompt("Enter your last name")
-alert (`Hello! ${qn} ${qn2}`)
+alert(`Hello! ${qn} ${qn2}`)
 
 var ask = prompt("Enter your favourite mobile phone model")
 document.write(`Your favourite Mobile phone model is ${ask} Length of string: ${ask.length}`)
@@ -1322,28 +1323,28 @@ var cse = input.toUpperCase()
 alert(cse);
 
 var input1 = prompt("Enter anything in lowercase")
-var cse = input1.charAt(0).toUpperCase()+input1.slice(1)
+var cse = input1.charAt(0).toUpperCase() + input1.slice(1)
 alert(cse);
 
 var num = 35.36
-var str=num.toString().replace(".","")
+var str = num.toString().replace(".", "")
 console.log(num);
 console.log(str);
 
 var q = prompt("Enter your name")
-var found= false
-for(var i=0; i<q.length; i++){
-var response = q.charCodeAt(i)
-if((response>=33 && response<=64)){
-   found= true
-   break;
+var found = false
+for (var i = 0; i < q.length; i++) {
+    var response = q.charCodeAt(i)
+    if ((response >= 33 && response <= 64)) {
+        found = true
+        break;
+    }
 }
+if (found) {
+    alert("Enter valid name")
 }
-if(found){
-   alert("Enter valid name")
-}
-else{
-   alert("welcome")
+else {
+    alert("welcome")
 }
 
 
@@ -1352,31 +1353,31 @@ var q9 = prompt("What do you want to order?")
 var lst = ["cake", "apple pie", "cookie", "chips", "patties"]
 var lst1 = q9.toLowerCase()
 var found = false
-for(var i=0; i<lst.length; i++){
-   if(lst1===lst[i]){
-    found = true
-    break;
-   }
+for (var i = 0; i < lst.length; i++) {
+    if (lst1 === lst[i]) {
+        found = true
+        break;
+    }
 }
-   if(found) {
-      alert("available at index"+i)
-   }  
-   else{
-      alert("sorry not available")
-   }
+if (found) {
+    alert("available at index" + i)
+}
+else {
+    alert("sorry not available")
+}
 
-   var password = prompt("Enter Password")
+var password = prompt("Enter Password")
 var num = password.charAt(0)
 var asc = num.charCodeAt(0)
 var found = false
-if(password.length= 6 || (asc>=48 && asc<=57)){
-   found= true
+if (password.length = 6 || (asc >= 48 && asc <= 57)) {
+    found = true
 }
-if(found){
-   alert("enter valid password")
+if (found) {
+    alert("enter valid password")
 }
-else{
-   alert("welcome")
+else {
+    alert("welcome")
 }
 
 
@@ -1392,52 +1393,52 @@ document.write(`Last Character is: ${last}`)
 
 var str = "The quick brown fox jumps over the lazy dog"
 var word = "the"
-var count = str.toLowerCase().split(`${word.toLowerCase()}`).length-1
+var count = str.toLowerCase().split(`${word.toLowerCase()}`).length - 1
 console.log(`word count for ${word} is ${count}`);
 
 var num = prompt("Enter a decimal value")
 alert(`The value is ${num}\n Roundoff value is ${Math.round(num)}\n The floor value is ${Math.floor(num)}\n The ceil value is ${Math.ceil(num)}`)
 
 var neg = prompt("Enter a negative decimal value")
-if(neg<0){
-   alert(`The number is ${neg}\n The roundoff value is ${Math.round(neg)}\n The floor value is ${Math.floor(neg)}\n The ceil value is ${Math.ceil(neg)}`)
-}else{
-   alert("Please enter a negative value")
+if (neg < 0) {
+    alert(`The number is ${neg}\n The roundoff value is ${Math.round(neg)}\n The floor value is ${Math.floor(neg)}\n The ceil value is ${Math.ceil(neg)}`)
+} else {
+    alert("Please enter a negative value")
 }
 
 var num = prompt("Enter a negative or positive value")
 alert(`The absolute value of ${num} is ${Math.abs(num)}`)
 
-var random = Math.floor(Math.random()*6)+1
+var random = Math.floor(Math.random() * 6) + 1
 alert(`The random dice value is ${random}`)
 
-var toss = Math.floor(Math.random() *2)+1
+var toss = Math.floor(Math.random() * 2) + 1
 console.log(toss);
 var ask = parseInt(prompt("For toss, type 2 for  Head or 1 for Tail"))
-if (ask === toss){
-   alert("Fired!")
-}else if(ask!== toss){
-   alert("You Won!")
+if (ask === toss) {
+    alert("Fired!")
+} else if (ask !== toss) {
+    alert("You Won!")
 }
 
-var random = Math.floor(Math.random()*100)+1
+var random = Math.floor(Math.random() * 100) + 1
 document.write(`The random between 1-100 is ${random}`)
 
 var askWeight = parseInt(prompt("Enter your weight in Kilograms"))
-var weight=askWeight.toFixed(1)
+var weight = askWeight.toFixed(1)
 document.write(`Your weight is ${weight} Kilograms`)
 
-var secret = Math.floor(Math.random()*10)+1
+var secret = Math.floor(Math.random() * 10) + 1
 var ask = parseFloat(prompt("Enter a number between 1-10"))
-if(ask === secret){
-   alert("Congratulations!!")
-}else if(ask!==secret){
-   alert("Try Again!")
+if (ask === secret) {
+    alert("Congratulations!!")
+} else if (ask !== secret) {
+    alert("Try Again!")
 }
 
 //assignment 23(ii)
 
-var userInput= prompt("enter your name")
+var userInput = prompt("enter your name")
 var allLower = userInput.toLowerCase();
 
 var x = "Tanzeel"
@@ -1457,12 +1458,12 @@ var upper = str.toUpperCase()
 alert(upper)
 
 var cityName = "kaRacHi";
-var capital = cityName.charAt(0).toUpperCase()+cityName.slice(1).toLowerCase()
+var capital = cityName.charAt(0).toUpperCase() + cityName.slice(1).toLowerCase()
 console.log(capital);
 
 
 var sameWords = "captain"
-var slce = sameWords.slice(1,3)
+var slce = sameWords.slice(1, 3)
 console.log(slce);
 
 var a = "This is the City of Lights"
@@ -1470,7 +1471,7 @@ var b = a.length
 console.log(b);
 
 var animal = "elephant"
-var seg = animal.slice(2,6)
+var seg = animal.slice(2, 6)
 console.log(seg);
 
 var w = "an apple a day keeps the doctor away"
@@ -1478,14 +1479,14 @@ var char = w.length
 console.log(char);
 var ind = w.indexOf("w")
 console.log(ind);
- var second = w.slice(3,33)
- console.log(second);
- 
- var text = "To be or not to be."; 
+var second = w.slice(3, 33)
+console.log(second);
+
+var text = "To be or not to be.";
 var indx = text.indexOf("be");
 console.log(indx); //3
 
-var text = "To be or not to be."; 
+var text = "To be or not to be.";
 var indx = text.lastIndexOf("be");
 console.log(indx); //16
 
@@ -1495,7 +1496,7 @@ console.log(indx);
 
 
 var str = "snacks"
-if (indexNum>=0 && indexNum<str.length){
+if (indexNum >= 0 && indexNum < str.length) {
 
 }
 
@@ -1520,14 +1521,14 @@ console.log(cha);
 
 var str = "drink water"
 var cha = "n"
-if(cha===str.charAt(3)){
+if (cha === str.charAt(3)) {
 
 }
 
 var y = "This is Question 15"
-for(var i=0; i<y.length; i++){
-   console.log(i);
-   
+for (var i = 0; i < y.length; i++) {
+    console.log(i);
+
 }
 var arr = y.split("")
 console.log(arr);
@@ -1566,27 +1567,27 @@ var round = Math.floor(num)
 console.log(round);
 
 
-var a = Math.floor(Math.random()*50)+1
+var a = Math.floor(Math.random() * 50) + 1
 console.log(a);
 
 var gen_num = Math.random()
 console.log(gen_num);
 
-var num = Math.random()*6
+var num = Math.random() * 6
 console.log(num);
 
-var toss = Math.floor(Math.random() *2)+1
+var toss = Math.floor(Math.random() * 2) + 1
 console.log(toss);
 var ask = parseInt(prompt("For toss, type 2 for  Head or 1 for Tail"))
-if (ask === toss){
-   alert("Fired!")
-}else if(ask!== toss){
-   alert("You Won!")
+if (ask === toss) {
+    alert("Fired!")
+} else if (ask !== toss) {
+    alert("You Won!")
 }
 
 var num = parseInt(prompt("enter a number"))
 
-var str ="123"
+var str = "123"
 var num = parseInt(str)
 console.log(num);
 
@@ -1616,12 +1617,555 @@ var newNum = round.toString()
 console.log(newNum);
 
 var num = 45.98754
-var newNum = num.toFixed(2) +","+ num.toString() + "," + parseInt(num)
+var newNum = num.toFixed(2) + "," + num.toString() + "," + parseInt(num)
 console.log(newNum);
 
-if(number==num.toFixed(2) && number==num.toString() && number.charAt(5)===num.toString().charAt(5)){
+if (number == num.toFixed(2) && number == num.toString() && number.charAt(5) === num.toString().charAt(5)) {
 
 }
 
-var  num = 98.56789
-alert(num.toFixed(2)+","+num.toString())
+var num = 98.56789
+alert(num.toFixed(2) + "," + num.toString())
+
+
+//assignment 24
+
+let dates = new Date()
+console.log(dates);
+
+
+function fullname() {
+    let firstName = prompt("Enter your first name")
+    let lastName = prompt("enter your last name")
+    alert(`Welcome ${firstName} ${lastName}`)
+}
+fullname()
+
+function sum() {
+    let firstNumber = parseInt(prompt("Enter a number"))
+    let lastNumber = parseInt(prompt("enter another number"))
+    alert(`The sum of two numbers is: ${firstNumber + lastNumber}`)
+}
+sum()
+
+
+function calculator() {
+    let q1 = parseInt(prompt("Enter a number"))
+    let q2 = parseInt(prompt("Enter another number"))
+    let q3 = prompt("Which operation do you want to perform? +, -, *, or /")
+    let sum = "+"
+    let sub = "-"
+    let multiply = "*"
+    let divide = "/"
+    if (q3 === sum) {
+        alert(`The sum of provided numbers is${q1 + q2}`)
+    } else if (q3 === sub) {
+        alert(`The difference of provided numbers is${q1 - q2}`)
+    } else if (q3 === multiply) {
+        alert(` The multiple of provided numbers is ${q1 * q2}`)
+    } else if (q3 === divide) {
+        alert(`The division of provided numbers is ${q1 / q2}`)
+    }
+}
+calculator()
+
+function square(num) {
+    return (num * num)
+}
+console.log(square(7));
+
+function factorial(x) {
+    if (x < 0) {
+        return ("Enter a positive number")
+    }
+    let number = 1
+    for (let i = 2; i <= x; i++) {
+        number = number * i
+    }
+    return (number)
+}
+console.log(factorial(4));
+
+function counting() {
+    let num1 = parseInt(prompt("Enter a number from where to start counting"))
+    let num2 = parseInt(prompt("Enter a second number where to end counting"))
+    for (let i = num1; i <= num2; i++) {
+        console.log(i);
+    }
+}
+counting()
+
+
+function hypotenuse() {
+    let base = parseInt(prompt("Enter the value of 'Base'"))
+    let perpendicular = parseInt(prompt("Enter the value of 'Perpendicular'"))
+    let sqroot;
+    function square() {
+        base = base * base
+        perpendicular = perpendicular * perpendicular
+        sqroot = Math.sqrt(perpendicular + base)
+    }
+    square()
+
+    console.log(`Hypotenuse= ${sqroot}`);
+}
+hypotenuse()
+
+//Argument as variable
+function area() {
+    let width = parseInt(prompt("enter the value of width"))
+    let height = parseInt(prompt("enter the value of height"))
+}
+console.log(width * height);
+area()
+
+//argument as value
+function area(w, h) {
+    return w * h
+}
+console.log(area(12, 30));
+
+function palindrome() {
+    let str = prompt("Type any word")
+    let reverse = str.split('').reverse().join('');
+    if (str === reverse) {
+        return "it is palindrome"
+    } else {
+        return "it is not paindrome"
+    }
+}
+
+console.log(palindrome());
+
+
+function longestWord() {
+    let ask = prompt("Type any sentence")
+    let arr = ask.split(' ')
+    let longest = ''
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].length > longest.length) {
+            longest = arr[i]
+        }
+    }
+    return longest;
+}
+console.log(longestWord());
+
+function countLetter(strng, lttr) {
+    let word = 0;
+    for (let i = 0; i < strng.length; i++) {
+        if (strng[i] === lttr) {
+            word++
+        }
+    }
+    return word;
+}
+console.log(countLetter("this is my assignment", "i"));
+
+function calcCircumference() {
+    let radius = parseInt(prompt("enter radius"))
+    let circumference = 2 * 3.14 * radius
+    return circumference
+}
+console.log(`The circumference of circle is ${calcCircumference()}`);
+
+function calcArea() {
+    let radi = parseInt(prompt("enter radius"))
+    let area = 3.14 * radi * radi
+    return area
+}
+console.log(`The area of circle is ${calcArea()}`);
+
+let datess = new Date()
+console.log(dates);
+
+
+let months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sept", "oct"]
+let month = datess.getMonth()
+let currntmonth = months[month]
+console.log(currntmonth);
+
+
+let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+let day = datess.getDay()
+let today = days[day]
+console.log(today.slice(0, 3));
+
+let ask = prompt("What day is today?")
+if ((ask === "saturday") || (ask === "sunday")) {
+    alert("It is a fun day")
+} else {
+    alert("Have patience")
+}
+
+let dayss = datess.getDate()
+if (dayss < 16) {
+    console.log("First fifteen days of month");
+} else {
+    console.log("last days of month");
+}
+
+
+let mins = dates.getTime("january 01, 1970")
+console.log(mins);
+
+let hours = dates.getHours()
+console.log(hours);
+let hour12 = hours % 12
+console.log(hour12);
+if (hours <= 12) {
+    console.log("Its AM");
+} else {
+    console.log("Its PM");
+}
+
+let daysss = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sunday"]
+let laterDate = new Date("december 31, 2020")
+let din = daysss[laterDate]
+console.log(laterDate + din);
+
+
+let ramadan = new Date("February 26, 2025")
+let todays = new Date()
+let daysPassed = ramadan.getTime()
+let todayTime = todays.getTime()
+let diff = daysPassed - todayTime
+let d = diff / (1000 * 24 * 60 * 60)
+console.log(Math.floor(d));
+
+
+let current = new Date()
+let reset = new Date(current.getTime() - (60 * 60 * 1000))
+console.log(`Current Time : ${current}`);
+console.log(`1 Hour ago ${reset}`);
+
+let yearsBack = 100
+current.setFullYear(current.getFullYear() - yearsBack)
+console.log(`100 years ago ${current}`);
+
+let monthss = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sept", "oct", "nov", "dec"]
+let age = parseInt(prompt("Enter your age here"))
+let todayDate = new Date()
+let birthYear = todayDate.getFullYear() - age
+console.log(`Your birth year is ${birthYear}`);
+
+let customerName = prompt("Enter your name")
+let currnt = new Date()
+let monthsss = currnt.getMonth()
+let crrntMonth = months[monthsss]
+console.log(crrntMonth);
+let units = parseInt(prompt("Enter units"))
+let perUnit = 45
+let payWithinDue = units * perUnit
+let latePay = 500
+let payAfterDue = (units * perUnit) + latePay
+console.log(`K-Electric Bill
+   Customer name: ${customerName}
+   Current Month: ${crrntMonth}
+   Number of units: ${units}
+   Charges per unit: ${perUnit}
+   Net amount payable (Within Due date): ${payWithinDue}
+   Late Surcharge: ${latePay}
+   Net amount payable (After Due date): ${payAfterDue}
+   `);
+
+//assignment 24(ii)
+
+let dObj = new Date()
+console.log(dObj);
+
+let dStr = dObj.toDateString()
+console.log(dStr);
+
+let dayssss = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sunday"]
+let dayObj = dObj.getDay()
+let d = dayssss[dayObj]
+console.log(d);
+let indx = dayssss.indexOf("Sat")
+console.log(indx);
+
+let dte = new Date()
+let day = dte.getDay()
+let dd = daysss[day]
+let date = dte.getDate()
+let fullYear = dte.getFullYear()
+let hours = dte.getHours()
+let ms = dte.getMilliseconds()
+let minss = dte.getMinutes()
+let mnth = dte.getMonth()
+let m = months[mnth]
+let tme = dte.getTime()
+let sec = dte.getSeconds()
+
+console.log(`Day: ${dd}
+   Date : ${date}
+   Fullyear:${fullYear}
+   Hours : ${hours}
+   Milliseconds : ${ms}
+   Minutes:${minss}
+   Month: ${m}
+   Time:${tme}
+   Seconds: ${sec}
+   `);
+
+let laterDate = new Date("february 02, 1992")
+let din = daysss[laterDate]
+console.log(laterDate + din)
+
+
+let back = new Date("1980")
+let today = new Date()
+let daysPassed = back.getTime()
+let todayTime = today.getTime()
+let diff = daysPassed - todayTime
+console.log(diff);
+
+let d = diff / (1000 * 24 * 60 * 60)
+console.log(Math.floor(d));
+
+let year = new Date("2045")
+console.log(year);
+
+function newDate(jan) {
+    jan.setMonth(0)
+    return jan
+}
+let dt = new Date("2025-10-05")
+let update = newDate(dt)
+console.log(update);
+
+
+function changeTheMinute(y) {
+    let value = parseInt(prompt("Enter the value to be written in minutes"))
+    y.setMinutes(value)
+    return y
+}
+let n = new Date()
+let u = changeTheMinute(n)
+console.log(u);
+
+
+let f = new Date()
+f.setHours(18)
+console.log(f);
+
+
+
+function calcAge() {
+    let age = parseInt(prompt("enter your birth year"))
+    let g = new Date()
+    let t = g.getFullYear()
+    let f = t - age
+    return f
+}
+console.log(`Your age is ${calcAge()}`);
+
+
+function displayAlert() {
+
+}
+
+function askName(userName) {
+    userName = prompt("Enter your name")
+    return userName
+}
+
+console.log(askName());
+
+function main() {
+    function nameUser(nameUser) {
+        nameUser = prompt("enter your name")
+        return nameUser
+    }
+    console.log(nameUser());
+
+    function cls(cls) {
+        cls = prompt("enter your class")
+        return cls
+    }
+    console.log(cls());
+
+}
+console.log(main());
+
+function askName(userName) {
+    userName = prompt("Enter your name")
+    alert(userName)
+}
+
+console.log(askName());
+
+
+function concat(a, b, c) {
+    return `${a} ${b} ${c}`
+}
+console.log(concat("tanzeel", 6, true));
+
+function concat(a, b, c) {
+    let d = `${a} ${b} ${c}`
+    return (d)
+}
+console.log(concat("tanzeel", 6, true));
+
+
+function concat(a, b, c) {
+    let d = `${a * b * c}`
+    return (d)
+}
+console.log(concat(10, 6, 87));
+
+function arr(ar) {
+    let add = 0
+    for (let i = 0; i < ar.length; i++) {
+        add += ar[i]
+    }
+    let avg = add / ar.length
+    return avg
+}
+let arr1 = [23, 67.12, 89, 5]
+console.log(`Average is: ${arr(arr1)}`);
+
+
+function sum(x, y) {
+    return x + y
+}
+console.log(`The sum is: ${sum(45, 9)}`);
+let s = sum(23, 2)
+console.log(s);
+
+
+function letterCount(word){
+    return word.length
+    }
+    console.log(`The letter count od sentence 'I am completing my assignment' is: ${letterCount("I am completing my assignment")}`);
+
+    let dateObj = new Date()
+let newYear = dateObj.getFullYear()
+console.log(newYear);
+
+let months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sept", "oct", "nov", "dec"]
+let age = parseInt(prompt("Enter your age here"))
+let todayDate= new Date()
+let birthYear = todayDate.getFullYear() - age 
+console.log(`Your birth year is ${birthYear}`);
+
+function tf(arr){
+    arr = ["zaid", "haris", "abubakar", "hasan", "hussain", "fatima"]
+    let q = prompt("enter name")
+    for(let i=0; i<arr.length; i++){
+      if(q==arr[i]){
+         return true
+      }else{
+         return false
+      }
+    }
+   
+   }
+   console.log(tf());
+
+   
+function rept(){
+    let str = "abcd"
+    let rpt = str.repeat(5)
+    return rpt
+ }
+ console.log(rept());
+
+ function rev (){
+    let arr = ["a", "b", "c", "d"]
+    let revrs = arr.reverse()
+    return revrs
+ }
+ console.log(rev());
+
+ 
+function numRev (){
+    let j = 5463
+    let revs = j.toString().split('').reverse().join('')
+    return revs
+ }
+ console.log(numRev());
+
+ function palindrome(){
+   let str = prompt("Type any word")
+   let reverse = str.split('').reverse().join('');
+   if(str===reverse){
+      return"it is palindrome"
+   }else{
+      return"it is not paindrome"
+   }
+}
+
+console.log(palindrome());
+
+
+function maxNum(){
+    let m =[34,9, 78, 678, 36,765]
+    let max = Math.max(...m)
+    let min = Math.min(...m)
+    return `${max}, ${min}`
+ }
+ console.log(maxNum());
+
+ function local (){
+    let work = "done"
+    return work
+ }
+ console.log(local());
+ 
+ 
+ let pending = "nothing"
+ function global(){
+   return pending
+ }
+ local()
+ console.log(pending);
+
+ function result (grades){
+    switch (grades){
+    case "A" :
+       return"Excellent"
+       break;
+    
+       case "B" :
+       return"Good"
+       break;
+    
+       case "C" :
+       return"Fair"
+       break;
+    
+       case "D" :
+       return"Need Improvement"
+       break;
+    
+       case "F" :
+       return"Failed"
+       break;
+    
+       default :
+       return "Please enter your grade"
+    }
+    }
+    console.log(result("A"))
+
+    
+function cityName(city){
+    switch(city){
+       case "Karachi" :
+       return "ok"
+       break;
+      
+       case "Lahore" :
+          return "ok"
+          break;
+ 
+          case "Islamabad" :
+             return "ok"
+             break;
+          default :
+          return "ivalid city name"
+    }
+ }
+ console.log(cityName("Karachi"));
+ 
