@@ -1,5 +1,7 @@
 //alert
 
+const { Button } = require("bootstrap")
+
 //Greeting
 alert("Hello, Welcome to this project")
 
@@ -2169,3 +2171,192 @@ function cityName(city){
  }
  console.log(cityName("Karachi"));
  
+
+
+
+ //Assignment 25 
+
+ function power(a,b){
+   let pwr= 1
+   let i = 1
+   do {
+      pwr = pwr*a
+      i++
+   }
+      while(i<=b)
+   
+   return pwr
+}
+console.log(power(2,6));
+
+function leapYear(){
+   let ask = parseInt(prompt("Enter an year to check wwther it is leap year or not"))
+   if((ask%4==0) || (ask%400==0) && (ask %100 !==0)){
+      alert(`${ask} is a leap year`)
+   }else{
+      alert(`${ask} is not a leap year`)
+   }
+}
+leapYear()
+
+function lengthOfTriangle(a,b,c){
+   return (a+b+c)/2
+}
+function result(){
+   let s = lengthOfTriangle(a,b,c)
+    let areas = s*((s-a)*(s-b)*(s-c))
+  return areas
+}
+let a = parseInt(prompt("enter length (a)"))
+let b = parseInt(prompt("enter length (b)"))
+let c = parseInt(prompt("enter length (c)"))
+console.log(result());
+
+    let q1 = parseFloat(prompt("Enter your marks in english"))
+    let q2 = parseFloat(prompt("Enter your marks in urdu"))
+    let q3 = parseFloat(prompt("Enter your marks in math"))
+function average (avg){
+   avg = (q1+q2+q3)/3
+   return `The average marks ${avg.toFixed(2)}\n`
+}
+
+
+function percentage(perc){
+    perc = ((q1+q2+q3)*100)/300
+    return `your percentage is ${perc.toFixed(2)}% \n`
+}
+
+function question (){
+   
+     return `Your Marks in English is ${q1}\n Your marks in Urdu is ${q2}\n Your marks in Math is ${q3}\n`
+}
+console.log(question(), average(), percentage());
+
+function indx (inde, char){
+     for(let i=0; i<=inde.length; i++){
+      if(inde[i] === char){
+         return i
+      }
+     }
+     return -1
+}
+console.log(indx("assignment", "n"));
+
+let ques = prompt("Enter a sentence")
+function removeVowels(value){
+ return value.replace(/[aeiouAEIOU]/g, "")
+}
+console.log(removeVowels(ques));
+
+
+let sentnc = prompt("Enter a sentence which includes words with consecutive vowels.")
+
+for (i = 0; i <= sentnc.length; i++) {
+   let vowelOccurence = sentnc[i] + sentnc[i + 1]
+
+if ("aeiou".includes(sentnc[i]) && "aeiou".includes(sentnc[i + 1])) {
+   switch (vowelOccurence) {
+      case "aa":
+      case "ae":
+      case "ai":
+      case "ao":
+      case "au":
+      case "ea":
+      case "ee":
+      case "ei":
+      case "eo":
+      case "eu":
+      case "ia":
+      case "ie":
+      case "ii":
+      case "io":
+      case "iu":
+      case "oa":
+      case "oe":
+      case "oi":
+      case "oo":
+      case "ou":
+      case "ua":
+      case "ue":
+      case "ui":
+      case "uo":
+      case "uu":
+         console.log(`Vowel Occurence: ${vowelOccurence}`);
+         break;
+         default :
+         console.log("Invalip Input");
+   }
+}
+}
+
+
+let ask = parseFloat(prompt("Enter Distance between 2 cities in Km"))
+ask = ask.toFixed(2)
+function inM(){
+   return `Answer in meter: ${ask*1000}\n`
+}
+function inCm(){
+   return `Answer in cm: ${ask*100000}\n`
+}
+function inFeet(){
+   return `Answer in Feet: ${ask*(3280.84).toFixed(2)}\n`
+}
+function inInches(){
+   return `Answer in Inches: ${ask*(39370.1).toFixed(2)}\n`
+}
+console.log(inM(), inInches(), inFeet(), inCm());
+
+
+
+function overtimePay(){
+   let ask = parseInt(prompt("Enter hours of your overtime"))
+   return`Your Overtime pay is: Rs:${ask*12.00}`
+}
+console.log(overtimePay());
+
+function withdraw(){
+   let amount = parseInt(prompt("Enter amount in hundreds")
+)
+   let hundred = amount.toString().charAt(0)
+   let rem100 = amount%100
+   let fifty  = Math.floor(rem100/50)
+   let rem50 = rem100%50
+   let tens = rem50/10
+ 
+   return`you will have ${hundred} Hundred, ${fifty} Rs:50 and ${tens} 10 notes`
+}
+console.log(withdraw());
+
+
+
+function removeRow(button){
+button.closest("tr").remove(); //.closest is a selector to select the closest element 
+}
+
+function mouseOver (){
+   document.getElementById("car2").src='./images/josh-berquist-pjxe3p4u5aI-unsplash.jpg'
+}
+
+function mouseOut(){
+   document.getElementById("car2").src='./images/g-wagon.jpg'
+}
+
+
+
+let count = 0
+function countNumber(){
+   document.getElementById("num").innerText= count
+}
+
+function increment(){
+   count++
+   countNumber()
+}
+function decrement(){
+   count--
+   countNumber()
+}
+function reset(){
+   count = 0
+   countNumber()
+}

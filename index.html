@@ -7,6 +7,66 @@
 </head>
 <body>
     
+<a href="#" onclick="alert('you have clicked on a link!')">Click here</a>
+<h3>Cars Lookup</h3>
+<img src="./images/g-wagon.jpg" alt="car1" onclick="alert('This is G-Wagon')" style="width: 400px; height: 300px; margin-right: 20PX; margin-left: 150px;">
+<figcaption>G-Wagon</figcaption>
+
+<img src="./images/josh-berquist-pjxe3p4u5aI-unsplash.jpg" alt="car2" onclick="alert('This is Porsche')" style="width: 400px; height: 300px; margin-right: 20PX; margin-left: 250px; margin-top: 50px;">
+<figcaption>Porsche</figcaption>
+<img src="./images/stephan-louis-mN8H_fe040Y-unsplash.jpg" alt="car3" onclick="alert('This is BMW')" style="width: 400px; height: 300px; margin-left: 350px; margin-top: 50px;">
+<figcaption>BMW</figcaption>
+
+
+
+<table>
+    <tr><th>Students Record</th></tr>
+    <tr><th>Name</th>
+    <th>Status</th>
+     <th>Button</th>
+</tr>
+    <tr id="row1">
+        <td>tanzeel</td> 
+        <td>Present</td>
+        <td><button onclick="removeRow(this)">Remove</button></td>
+    </tr>
+        <tr id="row1">
+            <td>fareeba</td>
+            <td>Present</td>
+             <td><button onclick="removeRow(this)">Remove</button></td>
+        </tr>
+        <tr id="row1"><td>areeba</td>
+            <td>Present</td>
+             <td><button onclick="removeRow(this)">Remove</button></td>
+        </tr>
+        <tr id="row1"><td>dua</td>
+        <td>Present</td>
+       <td><button onclick="removeRow(this)">Remove</button></td>
+    </tr>
+        <tr id="row1"><td>malika</td>
+        <td>Present</td>   <td><button onclick="removeRow(this)">Remove</button></td></tr>
+        <tr id="row1"><td>aazmir</td>
+        <td>Present</td>   <td><button onclick="removeRow(this)">Remove</button></td></tr>
+        <tr id="row1"><td>hashir</td>
+        <td>Present</td>   <td><button onclick="removeRow(this)">Remove</button></td></tr>
+        <tr id="row1"><td>rasikh</td>
+        <td>Present</td>   <td><button onclick="removeRow(this)">Remove</button></td></tr>
+        <tr id="row1"><td>amaim</td>
+        <td>Present</td>   <td><button onclick="removeRow(this)">Remove</button></td></tr>
+        <tr id="row1"><td>mirha</td>
+        <td>Present</td>   <td><button onclick="removeRow(this)">Remove</button></td></tr>
+</table>
+
+
+<img src="./images/g-wagon.jpg" alt="" onmouseover="mouseOver()" onmouseover="mouseOver()" id="car2" style="width: 400px; height: 350px;" onmouseout="mouseOut()">
+
+
+<div style="margin-left: 400px; margin-top: 50px;">
+    <button id="plus" onclick="increment()" style="display: inline;">+</button>
+    <h5 id="num"></h5>
+    <button id="minus" onclick="decrement()" style="display: inline;">-</button>
+        <button id="reset" onclick="reset()" style="display: inline;">Reset</button>
+</div>
 </body>
 <script src="app.js"></script>
 </html>
